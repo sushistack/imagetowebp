@@ -1,0 +1,12 @@
+{% assign lang_pack = include.lang_pack %}
+<script type="application/ld+json">
+{
+  "url": "{{ site.url }}{{ page.permalink }}",
+  "headline": "{{ lang_pack.title }}",
+  "dateModified":"{{ page.date | date_to_xmlschema }}",
+  "datePublished":"{{ page.date | date_to_xmlschema }}",
+  "description":"{{ lang_pack.description }}",
+  "@type":"WebSite",
+  "@context":"https://schema.org"
+}
+</script>

@@ -1,0 +1,22 @@
+{% feed_meta %}
+
+{% for lang in site.data.languages %}
+  {% if lang.enabled and page.lang != lang.code %}
+    {% if lang.code == 'en' %}
+      <link rel="alternate" href="{{ site.url }}/" hreflang="{{ lang.code }}">
+    {% else %}
+      <link rel="alternate" href="{{ site.url }}/{{ lang.code }}/" hreflang="{{ lang.code }}">
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<link rel="canonical" href="{{ site.url }}/">
+<link rel="shortcut icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+<link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ 'assets/icons/icon.png' | relative_url }}">
+<link rel="manifest" href="{{ 'assets/manifest.json' | relative_url }}">
+
+<link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/css/imagetowebp.css">

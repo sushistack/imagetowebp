@@ -1,0 +1,42 @@
+---
+# https://developer.mozilla.org/en-US/docs/Web/Manifest
+---
+{% assign lang_pack = site.data.languages[0] %}
+{
+  "lang": "{{ lang_pack.code }}",
+  "name": "{{ site.site_name }}",
+  "short_name": "{{ site.site_name | default:site.title }}",
+  "description": "{{ lang_pack.description }}",
+  "start_url": "{{ '/' | relative_url }}?utm_source=homescreen",
+  "theme_color": "{{ site.theme_color | default:'#3e5871' }}",
+  "background_color": "{{ '#fff' }}",
+  "orientation": "portrait",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "{{ 'assets/icons/icon32.png' | relative_url }}",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "{{ 'assets/icons/icon48.png' | relative_url }}",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "{{ 'assets/icons/icon96.png' | relative_url }}",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "{{ 'assets/icons/icon.png' | relative_url }}",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "{{ 'assets/icons/icon240.png' | relative_url }}",
+      "type": "image/png",
+      "sizes": "240x240"
+    }
+  ]
+}

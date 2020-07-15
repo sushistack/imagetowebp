@@ -1,0 +1,396 @@
+-
+  code: 'en'
+  enabled: true
+  title: 'Convert mutiple images to Webp Online'
+  description: 'Convert various type of images png, jpg, jpeg, gif to webp in online'
+  file_uploader: 'Drag and drop a file here or click'
+  quality: 'Quality: '
+  alert_head: 'Completely Converted !!'
+  alert_body: 'Your all images completely was converted. You can download each image or zip file of iamges.'
+  alert_footer: 'Download the images below.'
+  download_to_zip: 'Download to zip'
+  about: 'The webp converter converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
+  change_logs:
+    - date: 'JULY 2020'
+      contents: ['Initial release of the Webp Converter.']
+-
+  code: 'af'
+  enabled: false
+-
+  code: 'ar-AE'
+  enabled: false
+-
+  code: 'ar-BH'
+  enabled: false
+-
+  code: 'ar-DZ'
+  enabled: false
+-
+  code: 'ar-EG'
+  enabled: false
+-
+  code: 'ar-IQ'
+  enabled: false
+-
+  code: 'ar-JO'
+  enabled: false
+-
+  code: 'ar-KW'
+  enabled: false
+-
+  code: 'ar-LB'
+  enabled: false
+-
+  code: 'ar-LY'
+  enabled: false
+-
+  code: 'ar-MA'
+  enabled: false
+-
+  code: 'ar-OM'
+  enabled: false
+-
+  code: 'ar-QA'
+  enabled: false
+-
+  code: 'ar-SA'
+  enabled: false
+-
+  code: 'ar-SY'
+  enabled: false
+-
+  code: 'ar-TN'
+  enabled: false
+-
+  code: 'ar-YE'
+  enabled: false
+-
+  code: 'be'
+  enabled: false
+-
+  code: 'bg'
+  enabled: false
+-
+  code: 'ca'
+  enabled: false
+-
+  code: 'cs'
+  enabled: false
+-
+  code: 'cy'
+  enabled: false
+-
+  code: 'da'
+  enabled: false
+-
+  code: 'de'
+  enabled: false
+-
+  code: 'de-AT'
+  enabled: false
+-
+  code: 'de-CH'
+  enabled: false
+-
+  code: 'de-LI'
+  enabled: false
+-
+  code: 'de-LU'
+  enabled: false
+-
+  code: 'el'
+  enabled: false
+-
+  code: 'en-AU'
+  enabled: false
+-
+  code: 'en-BZ'
+  enabled: false
+-
+  code: 'en-CA'
+  enabled: false
+-
+  code: 'en-GB'
+  enabled: false
+-
+  code: 'en-IE'
+  enabled: false
+-
+  code: 'en-JM'
+  enabled: false
+-
+  code: 'en-NZ'
+  enabled: false
+-
+  code: 'en-TT'
+  enabled: false
+-
+  code: 'en-US'
+  enabled: false
+-
+  code: 'en-ZA'
+  enabled: false
+-
+  code: 'es'
+  enabled: false
+-
+  code: 'es-AR'
+  enabled: false
+-
+  code: 'es-BO'
+  enabled: false
+-
+  code: 'es-CL'
+  enabled: false
+-
+  code: 'es-CO'
+  enabled: false
+-
+  code: 'es-CR'
+  enabled: false
+-
+  code: 'es-DO'
+  enabled: false
+-
+  code: 'es-EC'
+  enabled: false
+-
+  code: 'es-GT'
+  enabled: false
+-
+  code: 'es-HN'
+  enabled: false
+-
+  code: 'es-MX'
+  enabled: false
+-
+  code: 'es-NI'
+  enabled: false
+-
+  code: 'es-PA'
+  enabled: false
+-
+  code: 'es-PE'
+  enabled: false
+-
+  code: 'es-PR'
+  enabled: false
+-
+  code: 'es-PY'
+  enabled: false
+-
+  code: 'es-SV'
+  enabled: false
+-
+  code: 'es-UY'
+  enabled: false
+-
+  code: 'es-VE'
+  enabled: false
+-
+  code: 'et'
+  enabled: false
+-
+  code: 'eu'
+  enabled: false
+-
+  code: 'fa'
+  enabled: false
+-
+  code: 'fi'
+  enabled: false
+-
+  code: 'fo'
+  enabled: false
+-
+  code: 'fr'
+  enabled: false
+-
+  code: 'fr-BE'
+  enabled: false
+-
+  code: 'fr-CA'
+  enabled: false
+-
+  code: 'fr-CH'
+  enabled: false
+-
+  code: 'fr-LU'
+  enabled: false
+-
+  code: 'ga'
+  enabled: false
+-
+  code: 'gd'
+  enabled: false
+-
+  code: 'he'
+  enabled: false
+-
+  code: 'hi'
+  enabled: false
+-
+  code: 'hr'
+  enabled: false
+-
+  code: 'hu'
+  enabled: false
+-
+  code: 'id'
+  enabled: false
+-
+  code: 'is'
+  enabled: false
+-
+  code: 'it'
+  enabled: false
+-
+  code: 'it-CH'
+  enabled: false
+-
+  code: 'ja'
+  enabled: false
+-
+  code: 'ji'
+  enabled: false
+-
+  code: 'ko'
+  enabled: true
+  title: 'PNG JPG GIF, 여러 이미지를 Webp로 한 번에 변환'
+  description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 webp 이미지로 변환하기'
+  file_uploader: '파일 드래그 & 드랍 또는 이 곳을 클릭하세요'
+  quality: '품질: '
+  alert_head: '이미지 변환이 완료되었습니다 !!'
+  alert_body: '당신의 모든 이미지들의 변환이 완료되었습니다. 각각의 이미지를 다운로드 받거나 zip 파일로 다운 받을 수 있습니다.'
+  alert_footer: '아래에서 이미지를 다운로드 하세요.'
+  download_to_zip: 'Zip 파일로 다운로드'
+  about: 'Webp Converter는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축 알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를 사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.'
+  change_logs:
+    - date: '2020년 7월'
+      contents: ['Image Resizer 첫 배포.']
+-
+  code: 'ku'
+  enabled: false
+-
+  code: 'lt'
+  enabled: false
+-
+  code: 'lv'
+  enabled: false
+-
+  code: 'mk'
+  enabled: false
+-
+  code: 'ml'
+  enabled: false
+-
+  code: 'ms'
+  enabled: false
+-
+  code: 'mt'
+  enabled: false
+-
+  code: 'nb'
+  enabled: false
+-
+  code: 'nl'
+  enabled: false
+-
+  code: 'nl-BE'
+  enabled: false
+-
+  code: 'nn'
+  enabled: false
+-
+  code: 'no'
+  enabled: false
+-
+  code: 'pa'
+  enabled: false
+-
+  code: 'pl'
+  enabled: false
+-
+  code: 'pt'
+  enabled: false
+-
+  code: 'pt-BR'
+  enabled: false
+-
+  code: 'rm'
+  enabled: false
+-
+  code: 'ro'
+  enabled: false
+-
+  code: 'ro-MD'
+  enabled: false
+-
+  code: 'ru'
+  enabled: false
+-
+  code: 'ru-MD'
+  enabled: false
+-
+  code: 'sb'
+  enabled: false
+-
+  code: 'sk'
+  enabled: false
+-
+  code: 'sl'
+  enabled: false
+-
+  code: 'sq'
+  enabled: false
+-
+  code: 'sr'
+  enabled: false
+-
+  code: 'sv'
+  enabled: false
+-
+  code: 'sv-FI'
+  enabled: false
+-
+  code: 'th'
+  enabled: false
+-
+  code: 'tn'
+  enabled: false
+-
+  code: 'tr'
+  enabled: false
+-
+  code: 'ts'
+  enabled: false
+-
+  code: 'uk'
+  enabled: false
+-
+  code: 'ur'
+  enabled: false
+-
+  code: 've'
+  enabled: false
+-
+  code: 'vi'
+  enabled: false
+-
+  code: 'xh'
+  enabled: false
+-
+  code: 'zh-CN'
+  enabled: false
+-
+  code: 'zh-HK'
+  enabled: false
+-
+  code: 'zh-SG'
+  enabled: false
+-
+  code: 'zh-TW'
+  enabled: false
+-
+  code: 'zu'
+  enabled: false

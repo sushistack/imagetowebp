@@ -1,0 +1,180 @@
+{% assign lang_pack = include.lang_pack %}
+
+<header class="header">
+  <nav class="h4 sm-h6">
+    <nav class="clearfix">
+      <div class="col-12 md-col-9 mx-auto clearfix flex flex-center mb2">
+        <div class="sm-col flex-auto">
+          <a href="/" class="py1 block flex flex-center logo">
+            <img src="/assets/icons/icon.png" style="max-width: 3rem;" class="mr1 md-mr2">
+            <div class="logo-text-wrap">
+              <div class="logo-text">
+                <span class="black main">CONVERT WEBP</span>
+                <span class="black sub">Various Type Of Images</span>
+              </div>
+            </div>
+            <span class="dropdown-icon"></span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="https://imgcompression.com" target="_blank" class="logo">
+              <div class="dropdown-list">
+                <img src="/assets/icons/icon-compress.png" style="max-width: 2rem;" class="mr1 md-mr2">
+                <div class="logo-text-wrap">
+                  <div class="logo-text">
+                    <span class="black main" style="color:#2980b9;">COMPRESS</span>
+                    <span class="black sub">Various Type Of Images</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://imgresizing.com" target="_blank" class="logo">
+              <div class="dropdown-list">
+                <img src="/assets/icons/icon-resize.png" style="max-width: 2rem;" class="mr1 md-mr2">
+                <div class="logo-text-wrap">
+                  <div class="logo-text">
+                    <span class="black main" style="color: #8e44ad;">RESIZE</span>
+                    <span class="black sub">Various Images</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </nav>
+</header>
+
+<div class="preview-wrapper"></div>
+
+<div class="file-upload-wrapper active">
+<div class="card card-body view file-upload">
+  <div class="card-text file-upload-message">
+    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="#ccc" viewBox="0 0 24 24"><path d="M16 16h-3v5h-2v-5h-3l4-4 4 4zm3.479-5.908c-.212-3.951-3.473-7.092-7.479-7.092s-7.267 3.141-7.479 7.092c-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h3.5v-2h-3.5c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78 3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-3.5v2h3.5c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408z"/></svg>
+    <p>{{ lang_pack.file_uploader }}</p>
+  </div>
+  <div class="mask rgba-stylish-slight"></div>
+  <input id="images" type="file" name="images[]" class="file_upload" multiple accept="image/*">
+</div>
+</div>
+
+<div class="process">
+  <div class="text-divider"><span>CONVERT</span></div>
+  <div class="options">
+    <label for="quality">{{ lang_pack.quality }}<output id="output">0.8</output></label>
+    <input id="quality" type="range" class="custom-range" min="0.5" max="0.98" step="0.01" value="0.80" disabled>
+  </div>
+  <hr>
+</div>
+
+<div class="actions">
+  <button id="reset-btn" class="btn btn-primary convertion-btn" disabled="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M13.5 2c-5.629 0-10.212 4.436-10.475 10h-3.025l4.537 5.917 4.463-5.917h-2.975c.26-3.902 3.508-7 7.475-7 4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5c-2.381 0-4.502-1.119-5.876-2.854l-1.847 2.449c1.919 2.088 4.664 3.405 7.723 3.405 5.798 0 10.5-4.702 10.5-10.5s-4.702-10.5-10.5-10.5z"/></svg>
+    <span class="h3" style="vertical-align:super;">Reset</span>
+  </button>
+  <button id="convert-btn" class="btn btn-primary convertion-btn" disabled="true">
+    <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 2c5.519 0 10 4.481 10 10s-4.481 10-10 10-10-4.481-10-10 4.481-10 10-10zm2 12v-3l5 4-5 4v-3h-9v-2h9zm-4-6v-3l-5 4 5 4v-3h9v-2h-9z"/></svg>
+    <span class="h3" style="vertical-align:super;">Convert</span>
+  </button>
+</div>
+
+<div class="after-convert">
+
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">{{ lang_pack.alert_head }}</h4>
+    <p>{{ lang_pack.alert_body }}</p>
+    <hr>
+    <p class="mb-0">{{ lang_pack.alert_footer }}</p>
+  </div>
+
+  <div class="converted">
+    <ul class="list-group list-group-flush">
+    </ul>
+  </div>
+
+  <button id="download-zip-btn" class="btn btn-primary convertion-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M8 20h3v-5h2v5h3l-4 4-4-4zm11.479-12.908c-.212-3.951-3.473-7.092-7.479-7.092s-7.267 3.141-7.479 7.092c-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h3.5v-2h-3.5c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78 3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-3.5v2h3.5c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408z"/></svg>
+    <span class="h3" style="vertical-align:super;">{{ lang_pack.download_to_zip }}</span>
+  </button>
+</div>
+
+<footer class="footer">
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="title">About</h2>
+      <hr>
+      <div class="columns is-centered">
+        <div class="column is-10-tablet is-8-desktop is-6-widescreen">
+          <div class="content has-text-centered-tablet">
+            <p>
+              {{ lang_pack.about }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="others">
+    <div class="container">
+      <h2 class="title">Others</h2>
+      <hr>
+      <div class="columns is-centered">
+        <div class="column is-10-tablet is-8-desktop is-6-widescreen">
+          <div class="content has-text-centered-tablet">
+            <a href="https://imgcompression.com" target="_blank" class="logo">
+              <div class="dropdown-list">
+                <img src="/assets/icons/icon-compress.png" style="max-width: 2rem;" class="mr1 md-mr2">
+                <div class="logo-text-wrap">
+                  <div class="logo-text">
+                    <span class="black main" style="color:#2980b9;">COMPRESS</span>
+                    <span class="black sub">Various Type Of Images</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="https://imgresizing.com" target="_blank" class="logo">
+              <div class="dropdown-list">
+                <img src="/assets/icons/icon-resize.png" style="max-width: 2rem;" class="mr1 md-mr2">
+                <div class="logo-text-wrap">
+                  <div class="logo-text">
+                    <span class="black main" style="color: #8e44ad;">RESIZE</span>
+                    <span class="black sub">Various Images</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section " id="changelog">
+    <div class="container">
+      <h2 class="title">Changelog</h2>
+      <hr>
+      <div class="columns is-centered">
+        <div class="column is-8-tablet is-6-desktop is-6-widescreen">
+          <div class="content">
+            {% for log in lang_pack.change_logs %}
+              <strong class="changelog-date">{{ log.date }}</strong>
+              <ul>
+              {% for content in log.contents %}
+                <li>{{ content }}</li>
+              {% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section " id="footer">
+      © 2020 - 2020 Webp Converter | <a href="/privacy">Privacy Policy</a>
+  </section>
+</footer>
+
+<script src="/dist/main.js"></script>

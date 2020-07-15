@@ -1,0 +1,1 @@
+import imageToWebp from './components/image-to-webp'
