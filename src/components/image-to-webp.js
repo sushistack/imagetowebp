@@ -46,28 +46,25 @@ class ImageToWebp {
   readImageBuffer (files, index) {
     var file = files[index];
     this.fr.onload = async function(e) {
-      var content = e.target.result
       var name = file.name.substring(0, file.name.lastIndexOf('.'))
       var ext = file.name.substring(file.name.lastIndexOf('.') + 1)
       var quality = `${this.quality * 100}%`
       
       var options = {
         debug: false,
-        command: `convert ${name}.${ext} ${name}.webp`,
-        inputFiles: [ File.fromArrayBuffer(content) ]
+        command: `convert ${name}.${ext} -quality ${quality} -define webp:lossless=true ${name}.webp`,
+        inputFiles: [ new File(file.name, new Uint8ClampedArray(e.target.result)) ]
       }
 
       const result = await main(options)
-      const dataUrl = `data:image/png;base64,${btoa(String.fromCharCode(...result.outputFiles[0].content))}`
-      console.log(dataUrl)
 
       this.outputs.push({
-        name: file.name,
-        type : file.type,
-        blob: new Blob([outputImage.buffer], { type : file.type })
+        name: `${name}.webp`,
+        type : 'image/webp',
+        blob: new Blob([result.outputFiles[0].content], { type : 'image/webp' })
       })
 
-      convertedList.appendResizedItem(file.name, index)
+      convertedList.appendResizedItem(`${name}.webp`, index)
 
       if (index < files.length - 1) {
         this.readImageBuffer(files, index + 1);
