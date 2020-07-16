@@ -40,6 +40,9 @@ class ImageToWebp {
   }
 
   convert () {
+    window.location.href = '#in-processing'
+    convertedList.activeLoading(true);
+    this.convertButton.disabled = true;
     this.readImageBuffer(imageUploader.input.files, 0);
   }
 
@@ -52,8 +55,8 @@ class ImageToWebp {
       
       var options = {
         debug: false,
-        command: `convert ${name}.${ext} -quality ${quality} -define webp:lossless=true ${name}.webp`,
-        inputFiles: [ new File(file.name, new Uint8ClampedArray(e.target.result)) ]
+        command: `convert input.${ext} -quality ${quality} -define webp:lossless=true out.webp`,
+        inputFiles: [ new File(`input.${ext}`, new Uint8ClampedArray(e.target.result)) ]
       }
 
       const result = await main(options)
@@ -71,8 +74,8 @@ class ImageToWebp {
       } else {
         this.downloadToZipButton.classList.add('active');
         this.successAlert.classList.add('active');
-        this.convertButton.disabled = true;
-        qualityRange.inactivate(true)
+        qualityRange.inactivate(true);
+        convertedList.activeLoading(false);
       }
     }.bind(this);
 

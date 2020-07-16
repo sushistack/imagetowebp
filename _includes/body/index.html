@@ -6,7 +6,7 @@
       <div class="col-12 md-col-9 mx-auto clearfix flex flex-center mb2">
         <div class="sm-col flex-auto">
           <a href="/" class="py1 block flex flex-center logo">
-            <img src="/assets/icons/icon.png" style="max-width: 3rem;" class="mr1 md-mr2">
+            <img src="/assets/icons/icon.png" style="max-width: 2.3rem;" class="mr1 md-mr2">
             <div class="logo-text-wrap">
               <div class="logo-text">
                 <span class="black main">CONVERT WEBP</span>
@@ -62,12 +62,12 @@
   <div class="text-divider"><span>CONVERT</span></div>
   <div class="options">
     <label for="quality">{{ lang_pack.quality }}<output id="output">0.8</output></label>
-    <input id="quality" type="range" class="custom-range" min="0.5" max="0.98" step="0.01" value="0.80" disabled>
+    <input id="quality" type="range" class="custom-range" min="0.5" max="1" step="0.01" value="0.80" disabled>
   </div>
   <hr>
 </div>
 
-<div class="actions">
+<div id="in-processing" class="actions">
   <button id="reset-btn" class="btn btn-primary convertion-btn" disabled="true">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M13.5 2c-5.629 0-10.212 4.436-10.475 10h-3.025l4.537 5.917 4.463-5.917h-2.975c.26-3.902 3.508-7 7.475-7 4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5c-2.381 0-4.502-1.119-5.876-2.854l-1.847 2.449c1.919 2.088 4.664 3.405 7.723 3.405 5.798 0 10.5-4.702 10.5-10.5s-4.702-10.5-10.5-10.5z"/></svg>
     <span class="h3" style="vertical-align:super;">Reset</span>
@@ -88,7 +88,7 @@
   </div>
 
   <div class="converted">
-    <ul class="list-group list-group-flush">
+    <ul class="list-group list-group-flush slide">
     </ul>
   </div>
 
