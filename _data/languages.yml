@@ -267,7 +267,7 @@
   about: 'Webp Converter는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축 알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를 사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.'
   change_logs:
     - date: '2020년 7월'
-      contents: ['Image Resizer 첫 배포.']
+      contents: ['Webp Converter 첫 배포.']
 -
   code: 'ku'
   enabled: false
