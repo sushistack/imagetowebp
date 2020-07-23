@@ -1,5 +1,6 @@
 -
   code: 'en'
+  name: 'English'
   enabled: true
   title: 'Convert mutiple images to Webp Online'
   description: 'Convert various type of images png, jpg, jpeg, gif to webp in online'
@@ -15,246 +16,327 @@
       contents: ['Initial release of the Webp Converter.']
 -
   code: 'af'
+  name: ''
   enabled: false
 -
   code: 'ar-AE'
+  name: ''
   enabled: false
 -
   code: 'ar-BH'
+  name: ''
   enabled: false
 -
   code: 'ar-DZ'
+  name: ''
   enabled: false
 -
   code: 'ar-EG'
+  name: ''
   enabled: false
 -
   code: 'ar-IQ'
+  name: ''
   enabled: false
 -
   code: 'ar-JO'
+  name: ''
   enabled: false
 -
   code: 'ar-KW'
+  name: ''
   enabled: false
 -
   code: 'ar-LB'
+  name: ''
   enabled: false
 -
   code: 'ar-LY'
+  name: ''
   enabled: false
 -
   code: 'ar-MA'
+  name: ''
   enabled: false
 -
   code: 'ar-OM'
+  name: ''
   enabled: false
 -
   code: 'ar-QA'
+  name: ''
   enabled: false
 -
   code: 'ar-SA'
+  name: ''
   enabled: false
 -
   code: 'ar-SY'
+  name: ''
   enabled: false
 -
   code: 'ar-TN'
+  name: ''
   enabled: false
 -
   code: 'ar-YE'
+  name: ''
   enabled: false
 -
   code: 'be'
+  name: ''
   enabled: false
 -
   code: 'bg'
+  name: ''
   enabled: false
 -
   code: 'ca'
+  name: ''
   enabled: false
 -
   code: 'cs'
+  name: ''
   enabled: false
 -
   code: 'cy'
+  name: ''
   enabled: false
 -
   code: 'da'
+  name: ''
   enabled: false
 -
   code: 'de'
+  name: ''
   enabled: false
 -
   code: 'de-AT'
+  name: ''
   enabled: false
 -
   code: 'de-CH'
+  name: ''
   enabled: false
 -
   code: 'de-LI'
+  name: ''
   enabled: false
 -
   code: 'de-LU'
+  name: ''
   enabled: false
 -
   code: 'el'
+  name: ''
   enabled: false
 -
   code: 'en-AU'
+  name: ''
   enabled: false
 -
   code: 'en-BZ'
+  name: ''
   enabled: false
 -
   code: 'en-CA'
+  name: ''
   enabled: false
 -
   code: 'en-GB'
+  name: ''
   enabled: false
 -
   code: 'en-IE'
+  name: ''
   enabled: false
 -
   code: 'en-JM'
+  name: ''
   enabled: false
 -
   code: 'en-NZ'
+  name: ''
   enabled: false
 -
   code: 'en-TT'
+  name: ''
   enabled: false
 -
   code: 'en-US'
+  name: ''
   enabled: false
 -
   code: 'en-ZA'
+  name: ''
   enabled: false
 -
   code: 'es'
+  name: ''
   enabled: false
 -
   code: 'es-AR'
+  name: ''
   enabled: false
 -
   code: 'es-BO'
+  name: ''
   enabled: false
 -
   code: 'es-CL'
+  name: ''
   enabled: false
 -
   code: 'es-CO'
+  name: ''
   enabled: false
 -
   code: 'es-CR'
+  name: ''
   enabled: false
 -
   code: 'es-DO'
+  name: ''
   enabled: false
 -
   code: 'es-EC'
+  name: ''
   enabled: false
 -
   code: 'es-GT'
+  name: ''
   enabled: false
 -
   code: 'es-HN'
+  name: ''
   enabled: false
 -
   code: 'es-MX'
+  name: ''
   enabled: false
 -
   code: 'es-NI'
+  name: ''
   enabled: false
 -
   code: 'es-PA'
+  name: ''
   enabled: false
 -
   code: 'es-PE'
+  name: ''
   enabled: false
 -
   code: 'es-PR'
+  name: ''
   enabled: false
 -
   code: 'es-PY'
+  name: ''
   enabled: false
 -
   code: 'es-SV'
+  name: ''
   enabled: false
 -
   code: 'es-UY'
+  name: ''
   enabled: false
 -
   code: 'es-VE'
+  name: ''
   enabled: false
 -
   code: 'et'
+  name: ''
   enabled: false
 -
   code: 'eu'
+  name: ''
   enabled: false
 -
   code: 'fa'
+  name: ''
   enabled: false
 -
   code: 'fi'
+  name: ''
   enabled: false
 -
   code: 'fo'
+  name: ''
   enabled: false
 -
   code: 'fr'
+  name: ''
   enabled: false
 -
   code: 'fr-BE'
+  name: ''
   enabled: false
 -
   code: 'fr-CA'
+  name: ''
   enabled: false
 -
   code: 'fr-CH'
+  name: ''
   enabled: false
 -
   code: 'fr-LU'
+  name: ''
   enabled: false
 -
   code: 'ga'
+  name: ''
   enabled: false
 -
   code: 'gd'
+  name: ''
   enabled: false
 -
   code: 'he'
+  name: ''
   enabled: false
 -
   code: 'hi'
+  name: ''
   enabled: false
 -
   code: 'hr'
+  name: ''
   enabled: false
 -
   code: 'hu'
+  name: ''
   enabled: false
 -
   code: 'id'
+  name: ''
   enabled: false
 -
   code: 'is'
+  name: ''
   enabled: false
 -
   code: 'it'
+  name: ''
   enabled: false
 -
   code: 'it-CH'
+  name: ''
   enabled: false
 -
   code: 'ja'
+  name: ''
   enabled: false
 -
   code: 'ji'
+  name: ''
   enabled: false
 -
   code: 'ko'
+  name: '한국어'
   enabled: true
   title: 'PNG JPG GIF, 여러 이미지를 Webp로 한 번에 변환'
   description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 webp 이미지로 변환하기'
@@ -270,127 +352,169 @@
       contents: ['Webp Converter 첫 배포.']
 -
   code: 'ku'
+  name: ''
   enabled: false
 -
   code: 'lt'
+  name: ''
   enabled: false
 -
   code: 'lv'
+  name: ''
   enabled: false
 -
   code: 'mk'
+  name: ''
   enabled: false
 -
   code: 'ml'
+  name: ''
   enabled: false
 -
   code: 'ms'
+  name: ''
   enabled: false
 -
   code: 'mt'
+  name: ''
   enabled: false
 -
   code: 'nb'
+  name: ''
   enabled: false
 -
   code: 'nl'
+  name: ''
   enabled: false
 -
   code: 'nl-BE'
+  name: ''
   enabled: false
 -
   code: 'nn'
+  name: ''
   enabled: false
 -
   code: 'no'
+  name: ''
   enabled: false
 -
   code: 'pa'
+  name: ''
   enabled: false
 -
   code: 'pl'
+  name: ''
   enabled: false
 -
   code: 'pt'
+  name: ''
   enabled: false
 -
   code: 'pt-BR'
+  name: ''
   enabled: false
 -
   code: 'rm'
+  name: ''
   enabled: false
 -
   code: 'ro'
+  name: ''
   enabled: false
 -
   code: 'ro-MD'
+  name: ''
   enabled: false
 -
   code: 'ru'
+  name: ''
   enabled: false
 -
   code: 'ru-MD'
+  name: ''
   enabled: false
 -
   code: 'sb'
+  name: ''
   enabled: false
 -
   code: 'sk'
+  name: ''
   enabled: false
 -
   code: 'sl'
+  name: ''
   enabled: false
 -
   code: 'sq'
+  name: ''
   enabled: false
 -
   code: 'sr'
+  name: ''
   enabled: false
 -
   code: 'sv'
+  name: ''
   enabled: false
 -
   code: 'sv-FI'
+  name: ''
   enabled: false
 -
   code: 'th'
+  name: ''
   enabled: false
 -
   code: 'tn'
+  name: ''
   enabled: false
 -
   code: 'tr'
+  name: ''
   enabled: false
 -
   code: 'ts'
+  name: ''
   enabled: false
 -
   code: 'uk'
+  name: ''
   enabled: false
 -
   code: 'ur'
+  name: ''
   enabled: false
 -
   code: 've'
+  name: ''
   enabled: false
 -
   code: 'vi'
+  name: ''
   enabled: false
 -
   code: 'xh'
+  name: ''
   enabled: false
 -
   code: 'zh-CN'
+  name: ''
   enabled: false
 -
   code: 'zh-HK'
+  name: ''
   enabled: false
 -
   code: 'zh-SG'
+  name: ''
   enabled: false
 -
   code: 'zh-TW'
+  name: ''
   enabled: false
 -
   code: 'zu'
+  name: ''
   enabled: false

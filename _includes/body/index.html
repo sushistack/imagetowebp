@@ -1,4 +1,5 @@
 {% assign lang_pack = include.lang_pack %}
+{% assign languages = site.data.languages %}
 
 <header class="header">
   <nav class="h4 sm-h6">
@@ -38,6 +39,23 @@
                 </div>
               </div>
             </a>
+          </div>
+          <div id="language-box" class="btn-group">
+            <button id="language-box-button" type="button" class="btn btn-secondary dropdown-toggle">
+              {{ lang_pack.name }}
+            </button>
+            <div id="langauge-menu" class="dropdown-menu dropdown-menu-right">
+              <input id="lang-search" class="form-control" type="text" placeholder="Search" aria-label="Search">
+              {% for language in languages %}
+                {% if language.enabled %}
+                  {% if language.code == 'en' %}
+                    <a class="language-link dropdown-item show" href="/">{{ language.name }}</a>
+                  {% else %}
+                    <a class="language-link dropdown-item show" href="/{{ language.code }}">{{ language.name }}</a>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>

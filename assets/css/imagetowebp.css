@@ -235,6 +235,41 @@ a.logo {
   100% { transform: rotate(360deg); }
 }
 
+#language-box {
+  position: absolute;
+  right: 0;
+  margin: .5rem 1rem 0 0;
+}
+
+#language-box-button {
+  background-color: #3e5871;
+  border-color: #3e5871;
+}
+
+#language-box .dropdown-item.active, .dropdown-item:active {
+  background-color: #3e5871;
+}
+
+#language-box .dropdown-menu.dropdown-menu-right {
+  right: 0;
+  left: auto;
+  max-width: 10rem;
+  min-width: 7rem;
+}
+
+#lang-search {
+  width: 100px;
+  margin: .2rem 1rem .2rem 1rem;
+}
+
+.language-link {
+  display: none;
+}
+
+.language-link.show {
+  display: block;
+}
+
 /* file uploader start */
 
 .file-upload {

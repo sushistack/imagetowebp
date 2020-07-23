@@ -6,6 +6,7 @@ import convertedList from './coverted-list'
 import qualityRange from './quality-range'
 import JSZip from 'jszip'
 import logo from './logo'
+import language from './language'
 
 class ImageToWebp {
   constructor () {
