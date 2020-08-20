@@ -2,7 +2,7 @@
   code: 'en'
   name: 'English'
   enabled: true
-  title: 'Convert multiple images to Webp Online'
+  title: 'Convert multiple images to Webp online'
   description: 'Convert various type of images png, jpg, jpeg, gif to webp in online'
   file_uploader: 'Drag and drop a file here or click'
   convert: 'CONVERT'
