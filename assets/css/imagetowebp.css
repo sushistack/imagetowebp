@@ -2,6 +2,13 @@ html {
 	scroll-behavior: smooth;
 }
 
+#site-name {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #3e5871;
+  margin-bottom: 0;
+}
+
 .preview-wrapper {
   display: flex;
   flex-wrap: wrap;

@@ -56,7 +56,7 @@
               {{ lang_pack.name }}
             </button>
             <div id="langauge-menu" class="dropdown-menu dropdown-menu-right">
-              <input id="lang-search" class="form-control" type="text" placeholder="Search" aria-label="Search">
+              <input id="lang-search" class="form-control" type="text" placeholder="country" aria-label="country">
               {% for language in languages %}
                 {% if language.enabled %}
                   {% if language.code == 'en' %}
@@ -88,7 +88,7 @@
 </div>
 
 <div class="process">
-  <div class="text-divider"><span>CONVERT</span></div>
+  <div class="text-divider"><span>{{ lang_pack.convert }}</span></div>
   <div class="options">
     <label for="quality">{{ lang_pack.quality }}<output id="output">0.8</output></label>
     <input id="quality" type="range" class="custom-range" min="0.5" max="1" step="0.01" value="0.80" disabled>
@@ -99,11 +99,11 @@
 <div id="in-processing" class="actions">
   <button id="reset-btn" class="btn btn-primary convertion-btn" disabled="true">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M13.5 2c-5.629 0-10.212 4.436-10.475 10h-3.025l4.537 5.917 4.463-5.917h-2.975c.26-3.902 3.508-7 7.475-7 4.136 0 7.5 3.364 7.5 7.5s-3.364 7.5-7.5 7.5c-2.381 0-4.502-1.119-5.876-2.854l-1.847 2.449c1.919 2.088 4.664 3.405 7.723 3.405 5.798 0 10.5-4.702 10.5-10.5s-4.702-10.5-10.5-10.5z"/></svg>
-    <span class="h3" style="vertical-align:super;">Reset</span>
+    <span class="h3" style="vertical-align:super;">{{ lang_pack.reset_btn }}</span>
   </button>
   <button id="convert-btn" class="btn btn-primary convertion-btn" disabled="true">
     <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 24 24"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 2c5.519 0 10 4.481 10 10s-4.481 10-10 10-10-4.481-10-10 4.481-10 10-10zm2 12v-3l5 4-5 4v-3h-9v-2h9zm-4-6v-3l-5 4 5 4v-3h9v-2h-9z"/></svg>
-    <span class="h3" style="vertical-align:super;">Convert</span>
+    <span class="h3" style="vertical-align:super;">{{ lang_pack.convert_btn }}</span>
   </button>
 </div>
 
@@ -136,9 +136,7 @@
       <div class="columns is-centered">
         <div class="column is-10-tablet is-8-desktop is-6-widescreen">
           <div class="content has-text-centered-tablet">
-            <p>
-              {{ lang_pack.about }}
-            </p>
+            {{ lang_pack.about }}
           </div>
         </div>
       </div>

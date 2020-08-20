@@ -2,15 +2,18 @@
   code: 'en'
   name: 'English'
   enabled: true
-  title: 'Convert mutiple images to Webp Online'
+  title: 'Convert multiple images to Webp Online'
   description: 'Convert various type of images png, jpg, jpeg, gif to webp in online'
   file_uploader: 'Drag and drop a file here or click'
+  convert: 'CONVERT'
   quality: 'Quality: '
+  reset_btn: 'Reset'
+  convert_btn: 'Convert'
   alert_head: 'Completely Converted !!'
-  alert_body: 'Your all images completely was converted. You can download each image or zip file of iamges.'
+  alert_body: 'Your all images completely was converted. You can download each image or zip file of images.'
   alert_footer: 'Download the images below.'
   download_to_zip: 'Download to zip'
-  about: 'The webp converter converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
+  about: '<h1 id="site-name">Webp Converter</h1>, it converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
   change_logs:
     - date: 'JULY 2020'
       contents: ['Initial release of the Webp Converter.']
@@ -108,8 +111,23 @@
   enabled: false
 -
   code: 'de'
-  name: ''
-  enabled: false
+  name: 'Deutsche'
+  enabled: true
+  title: 'Konvertieren Sie mehrere Bilder in Webp Online'
+  description: 'Konvertieren Sie verschiedene Arten von Bildern PNG, JPG, JPEG, GIF in Webp in online'
+  file_uploader: 'Ziehen Sie eine Datei hierher und legen Sie sie ab oder klicken Sie auf'
+  convert: 'KONVERTIEREN'
+  quality: 'Qualität: '
+  reset_btn: 'Zurücksetzen'
+  convert_btn: 'Konvertieren'
+  alert_head: 'Komplett konvertiert !!'
+  alert_body: 'Ihre alle Bilder wurden vollständig konvertiert. Sie können jedes Bild oder jede Zip-Datei mit Bildern herunterladen.'
+  alert_footer: 'Laden Sie die Bilder unten herunter.'
+  download_to_zip: 'Zum Zip herunterladen'
+  about: '<h1 id="site-name">Webp Converter</h1>, In der Vergangenheit verwendete Bilder wie PNG und JPG werden durch einen neuen Komprimierungsalgorithmus in ein für das Web optimiertes Webp-Format konvertiert. webp ist ein neuer Bildtyp, der von Google erstellt wurde. Um Bilder auf Ihre Website hochzuladen, können Sie Bilder vom Typ Webp verwenden, um das Laden von Seiten zu beschleunigen.'
+  change_logs:
+    - date: 'JULI 2020'
+      contents: ['Erstveröffentlichung des Webp Converter.']
 -
   code: 'de-AT'
   name: ''
@@ -172,8 +190,23 @@
   enabled: false
 -
   code: 'es'
-  name: ''
-  enabled: false
+  name: 'Español'
+  enabled: true
+  title: 'Convierta varias imágenes a Webp Online'
+  description: 'Convierta varios tipos de imágenes png, jpg, jpeg, gif a webp en línea'
+  file_uploader: 'Arrastre y suelte un archivo aquí o haga clic en'
+  convert: 'CONVERTIR'
+  quality: 'Calidad: '
+  reset_btn: 'Reiniciar'
+  convert_btn: 'Convertir'
+  alert_head: 'Completamente convertido !!'
+  alert_body: 'Todas tus imágenes se convirtieron por completo. Puede descargar cada imagen o archivo zip de imágenes.'
+  alert_footer: 'Descarga las imágenes a continuación.'
+  download_to_zip: 'Descargar en zip'
+  about: '<h1 id="site-name">Webp Converter</h1>, convierte imágenes que se han utilizado en el pasado, como png y jpg, a un formato webp optimizado para la web mediante un nuevo algoritmo de compresión. webp es un nuevo tipo de imagen creado por Google. Para cargar imágenes en su sitio, puede usar imágenes de tipo webp para acelerar la carga de la página.'
+  change_logs:
+    - date: 'Julio 2020'
+      contents: ['Versión inicial de Webp Converter.']
 -
   code: 'es-AR'
   name: ''
@@ -268,8 +301,23 @@
   enabled: false
 -
   code: 'fr'
-  name: ''
-  enabled: false
+  name: 'Français'
+  enabled: true
+  title: 'Convertir plusieurs images en Webp Online'
+  description: Convertir divers types d'images png, jpg, jpeg, gif en webp en ligne
+  file_uploader: 'Faites glisser et déposez un fichier ici ou cliquez sur'
+  convert: 'CONVERTIR'
+  quality: 'Qualité: '
+  reset_btn: 'Réinitialiser'
+  convert_btn: 'Convertir'
+  alert_head: 'Complètement converti !!'
+  alert_body: Toutes vos images ont été complètement converties. Vous pouvez télécharger chaque image ou fichier zip d'images.
+  alert_footer: 'Téléchargez les images ci-dessous.'
+  download_to_zip: 'Télécharger en zip'
+  about: <h1 id="site-name">Webp Converter</h1>, il convertit les images qui ont été utilisées dans le passé, telles que png et jpg, dans un format webp optimisé pour le Web grâce à un nouvel algorithme de compression. webp est un nouveau type d'image créé par Google. Pour télécharger des images sur votre site, vous pouvez utiliser des images de type webp pour accélérer le chargement des pages.
+  change_logs:
+    - date: 'JUILLET 2020'
+      contents: ['Version initiale du convertisseur Webp.']
 -
   code: 'fr-BE'
   name: ''
@@ -300,8 +348,23 @@
   enabled: false
 -
   code: 'hi'
-  name: ''
-  enabled: false
+  name: 'हिन्दी'
+  enabled: true
+  title: 'कई छवियों को वेबप ऑनलाइन में परिवर्तित करें'
+  description: 'ऑनलाइन में विभिन्न प्रकार के चित्र png, jpg, jpeg, gif को webp में बदलें'
+  file_uploader: 'किसी फ़ाइल को यहाँ खींचें या छोड़ें या क्लिक करें'
+  convert: 'धर्मान्तरित'
+  quality: 'गुणवत्ता: '
+  reset_btn: 'रीसेट'
+  convert_btn: 'धर्मान्तरित'
+  alert_head: 'पूरी तरह से रूपांतरित !!'
+  alert_body: 'आपकी सभी छवियां पूरी तरह से रूपांतरित हो गईं। आप प्रत्येक छवि या छवियों की ज़िप फ़ाइल डाउनलोड कर सकते हैं।'
+  alert_footer: 'नीचे दिए गए चित्र डाउनलोड करें।'
+  download_to_zip: 'डाउनलोड करने के लिए ज़िप'
+  about: '<h1 id="site-name">Webp Converter</h1>, यह उन चित्रों को धर्मान्तरित करता है जिनका उपयोग अतीत में किया गया है, जैसे कि png और jpg, वेब में एक नए संपीड़न एल्गोरिथ्म के माध्यम से अनुकूलित वेब प्रारूप में। webp Google द्वारा बनाया गया एक नया इमेज टाइप है। अपनी साइट पर छवियां अपलोड करने के लिए, आप पृष्ठ लोडिंग को गति देने के लिए वेबप प्रकार की छवियों का उपयोग कर सकते हैं।'
+  change_logs:
+    - date: 'जुलाई 2020'
+      contents: ['वेब कन्वर्टर की प्रारंभिक रिलीज।']
 -
   code: 'hr'
   name: ''
@@ -328,8 +391,23 @@
   enabled: false
 -
   code: 'ja'
-  name: ''
-  enabled: false
+  name: '日本語'
+  enabled: true
+  title: '複数の画像をオンラインでWebpに変換する'
+  description: 'オンラインでさまざまなタイプの画像png, jpg, jpeg, gifをwebpに変換'
+  file_uploader: 'ファイルドラッグ&ドロップまたはこちらをクリックしてください。'
+  convert: '変換'
+  quality: '品質: '
+  reset_btn: 'リセット'
+  convert_btn: '変換'
+  alert_head: '完全に変換 !!'
+  alert_body: 'すべての画像が完全に変換されました。 各画像または画像のzipファイルをダウンロードできます。'
+  alert_footer: '以下の画像をダウンロードしてください。'
+  download_to_zip: 'Zipファイルでダウンロード'
+  about: '<h1 id="site-name">Webp Converter</h1>, it converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
+  change_logs:
+    - date: '2020年7月'
+      contents: ['Webp Converterの初期リリース。']
 -
   code: 'ji'
   name: ''
@@ -341,12 +419,15 @@
   title: 'PNG JPG GIF, 여러 이미지를 Webp로 한 번에 변환'
   description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 webp 이미지로 변환하기'
   file_uploader: '파일 드래그 & 드랍 또는 이 곳을 클릭하세요'
+  convert: '변환'
   quality: '품질: '
+  reset_btn: '초기화'
+  convert_btn: '변환'
   alert_head: '이미지 변환이 완료되었습니다 !!'
   alert_body: '당신의 모든 이미지들의 변환이 완료되었습니다. 각각의 이미지를 다운로드 받거나 zip 파일로 다운 받을 수 있습니다.'
   alert_footer: '아래에서 이미지를 다운로드 하세요.'
   download_to_zip: 'Zip 파일로 다운로드'
-  about: 'Webp Converter는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축 알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를 사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.'
+  about: '<h1 id="site-name">Webp Converter</h1>는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축 알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를 사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.'
   change_logs:
     - date: '2020년 7월'
       contents: ['Webp Converter 첫 배포.']
@@ -464,8 +545,23 @@
   enabled: false
 -
   code: 'th'
-  name: ''
-  enabled: false
+  name: 'ไทย'
+  enabled: true
+  title: 'แปลงภาพหลายภาพเป็น Webp ออนไลน์'
+  description: 'แปลงรูปภาพประเภทต่างๆ png, jpg, jpeg, gif เป็น webp ในรูปแบบออนไลน์'
+  file_uploader: 'ลากและวางไฟล์ที่นี่หรือคลิก'
+  convert: 'แปลง'
+  quality: 'คุณภาพ: '
+  reset_btn: 'รีเซ็ต'
+  convert_btn: 'แปลง'
+  alert_head: 'แปลงอย่างสมบูรณ์ !!'
+  alert_body: 'ภาพทั้งหมดของคุณถูกแปลงอย่างสมบูรณ์ คุณสามารถดาวน์โหลดภาพแต่ละภาพหรือไฟล์ zip ของภาพ'
+  alert_footer: 'ดาวน์โหลดภาพด้านล่าง'
+  download_to_zip: 'ดาวน์โหลดเป็นไฟล์ zip'
+  about: '<h1 id="site-name">Webp Converter</h1>, จะแปลงรูปภาพที่เคยใช้ในอดีตเช่น png และ jpg เป็นรูปแบบ webp ที่ปรับให้เหมาะสมกับเว็บโดยใช้อัลกอริธึมการบีบอัดแบบใหม่ webp เป็นรูปภาพประเภทใหม่ที่ Google สร้างขึ้น ในการอัปโหลดภาพไปยังไซต์ของคุณคุณสามารถใช้รูปภาพประเภท webp เพื่อเพิ่มความเร็วในการโหลดหน้าเว็บ'
+  change_logs:
+    - date: 'กรกฎาคม 2020'
+      contents: ['รุ่นแรกของ Webp Converter.']
 -
   code: 'tn'
   name: ''
@@ -500,8 +596,23 @@
   enabled: false
 -
   code: 'zh-CN'
-  name: ''
-  enabled: false
+  name: '汉语'
+  enabled: true
+  title: '在线将多个图像转换为Webp'
+  description: '在线将各种类型的图像png，jpg，jpeg，gif转换为webp'
+  file_uploader: '请点击文件夹&手拉或此处。'
+  convert: '兑换'
+  quality: '质量: '
+  reset_btn: '重启'
+  convert_btn: '兑换'
+  alert_head: '完全转换 !!'
+  alert_body: '您的所有图像已完全转换。 您可以下载每个图像或图像的zip文件。'
+  alert_footer: '请在下面下载图片。'
+  download_to_zip: '以Zip文件下载'
+  about: '<h1 id="site-name">Webp Converter</h1>, 它将过去使用过的图像（例如png和jpg）转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。 要将图像上传到您的站点，您可以使用webp类型的图像来加快页面加载速度。'
+  change_logs:
+    - date: '2020年7月'
+      contents: ['Webp Converter 首次发放。']
 -
   code: 'zh-HK'
   name: ''
