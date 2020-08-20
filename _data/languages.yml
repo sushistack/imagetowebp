@@ -113,7 +113,7 @@
   code: 'de'
   name: 'Deutsche'
   enabled: true
-  title: 'Konvertieren Sie mehrere Bilder in Webp Online'
+  title: 'Konvertieren Sie mehrere Bilder online in Webp'
   description: 'Konvertieren Sie verschiedene Arten von Bildern PNG, JPG, JPEG, GIF in Webp in online'
   file_uploader: 'Ziehen Sie eine Datei hierher und legen Sie sie ab oder klicken Sie auf'
   convert: 'KONVERTIEREN'
@@ -192,7 +192,7 @@
   code: 'es'
   name: 'Español'
   enabled: true
-  title: 'Convierta varias imágenes a Webp Online'
+  title: 'Convierta varias imágenes a Webp en línea'
   description: 'Convierta varios tipos de imágenes png, jpg, jpeg, gif a webp en línea'
   file_uploader: 'Arrastre y suelte un archivo aquí o haga clic en'
   convert: 'CONVERTIR'
@@ -303,7 +303,7 @@
   code: 'fr'
   name: 'Français'
   enabled: true
-  title: 'Convertir plusieurs images en Webp Online'
+  title: 'Convertir plusieurs images en Webp en ligne'
   description: Convertir divers types d'images png, jpg, jpeg, gif en webp en ligne
   file_uploader: 'Faites glisser et déposez un fichier ici ou cliquez sur'
   convert: 'CONVERTIR'
@@ -350,7 +350,7 @@
   code: 'hi'
   name: 'हिन्दी'
   enabled: true
-  title: 'कई छवियों को वेबप ऑनलाइन में परिवर्तित करें'
+  title: 'कई छवियों को ऑनलाइन वेबप में परिवर्तित करें
   description: 'ऑनलाइन में विभिन्न प्रकार के चित्र png, jpg, jpeg, gif को webp में बदलें'
   file_uploader: 'किसी फ़ाइल को यहाँ खींचें या छोड़ें या क्लिक करें'
   convert: 'धर्मान्तरित'
@@ -416,8 +416,8 @@
   code: 'ko'
   name: '한국어'
   enabled: true
-  title: 'PNG JPG GIF, 여러 이미지를 Webp로 한 번에 변환'
-  description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 webp 이미지로 변환하기'
+  title: '온라인에서 여러 이미지를 Webp로 한 번에 변환'
+  description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 온라인에서 webp 이미지로 변환하기'
   file_uploader: '파일 드래그 & 드랍 또는 이 곳을 클릭하세요'
   convert: '변환'
   quality: '품질: '
