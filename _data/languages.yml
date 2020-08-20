@@ -404,7 +404,7 @@
   alert_body: 'すべての画像が完全に変換されました。 各画像または画像のzipファイルをダウンロードできます。'
   alert_footer: '以下の画像をダウンロードしてください。'
   download_to_zip: 'Zipファイルでダウンロード'
-  about: '<h1 id="site-name">Webp Converter</h1>, it converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
+  about: '<h1 id="site-name">Webp Converter</h1>, これは、pngやjpgなどの過去に使用された画像を、新しい圧縮アルゴリズムによってWeb用に最適化されたwebp形式に変換します。 webpは、Googleが作成した新しい画像タイプです。 画像をサイトにアップロードするには、webpタイプの画像を使用してページの読み込みを高速化できます。'
   change_logs:
     - date: '2020年7月'
       contents: ['Webp Converterの初期リリース。']
