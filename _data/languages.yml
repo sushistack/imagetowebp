@@ -317,7 +317,7 @@
   about: <h1 id="site-name">Webp Converter</h1>, il convertit les images qui ont été utilisées dans le passé, telles que png et jpg, dans un format webp optimisé pour le Web grâce à un nouvel algorithme de compression. webp est un nouveau type d'image créé par Google. Pour télécharger des images sur votre site, vous pouvez utiliser des images de type webp pour accélérer le chargement des pages.
   change_logs:
     - date: 'JUILLET 2020'
-      contents: ['Version initiale du convertisseur Webp.']
+      contents: ['Version initiale du Webp Converter.']
 -
   code: 'fr-BE'
   name: ''
