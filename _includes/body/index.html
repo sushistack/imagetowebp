@@ -210,6 +210,32 @@
     </div>
   </section>
 
+  <section class="section " id="partners">
+    <div class="container">
+      <h2 class="title">Partners</h2>
+      <hr>
+      <div class="columns is-centered">
+        <div class="column is-8-tablet is-6-desktop is-6-widescreen">
+          <div class="content">
+              {% for partner in lang_pack.partners %}
+              <div class="partner-site">
+                {{ partner.icon }}
+                <a href="{{ partner.link }}" style="color:{{ partner.color }}" target="_blank" class="partner-link">{{ partner.name }}</a>
+              </div>
+              <ul>
+              {% for content in partner.contents %}
+                <li>
+                  <a href="{{ content.link }}" target="_blank">{{ content.name }}</a>
+                </li>
+              {% endfor %}
+              </ul>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section " id="footer">
       © 2020 - 2020 Webp Converter | <a href="/privacy">Privacy Policy</a>
   </section>

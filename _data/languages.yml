@@ -1,631 +1,798 @@
--
-  code: 'en'
-  name: 'English'
+- code: en
+  name: English
   enabled: true
-  title: 'Convert multiple images to Webp online'
+  title: Convert multiple images to Webp online
   description: 'Convert various type of images png, jpg, jpeg, gif to webp in online'
-  file_uploader: 'Drag and drop a file here or click'
-  convert: 'CONVERT'
+  file_uploader: Drag and drop a file here or click
+  convert: CONVERT
   quality: 'Quality: '
-  reset_btn: 'Reset'
-  convert_btn: 'Convert'
-  alert_head: 'Completely Converted !!'
-  alert_body: 'Your all images completely was converted. You can download each image or zip file of images.'
-  alert_footer: 'Download the images below.'
-  download_to_zip: 'Download to zip'
-  about: '<h1 id="site-name">Webp Converter</h1>, it converts images that have been used in the past, such as png and jpg, into a webp format optimized for the web through a new compression algorithm. webp is a new image type created by Google. To upload images to your site, you can use webp type images to speed up page loading.'
+  reset_btn: Reset
+  convert_btn: Convert
+  alert_head: Completely Converted !!
+  alert_body: >-
+    Your all images completely was converted. You can download each image or zip
+    file of images.
+  alert_footer: Download the images below.
+  download_to_zip: Download to zip
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, it converts images that have been
+    used in the past, such as png and jpg, into a webp format optimized for the
+    web through a new compression algorithm. webp is a new image type created by
+    Google. To upload images to your site, you can use webp type images to speed
+    up page loading.
   change_logs:
-    - date: 'JULY 2020'
-      contents: ['Initial release of the Webp Converter.']
--
-  code: 'af'
+    - date: JULY 2020
+      contents:
+        - Initial release of the Webp Converter.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: Image resizer site TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: af
   name: ''
   enabled: false
--
-  code: 'ar-AE'
+- code: ar-AE
   name: ''
   enabled: false
--
-  code: 'ar-BH'
+- code: ar-BH
   name: ''
   enabled: false
--
-  code: 'ar-DZ'
+- code: ar-DZ
   name: ''
   enabled: false
--
-  code: 'ar-EG'
+- code: ar-EG
   name: ''
   enabled: false
--
-  code: 'ar-IQ'
+- code: ar-IQ
   name: ''
   enabled: false
--
-  code: 'ar-JO'
+- code: ar-JO
   name: ''
   enabled: false
--
-  code: 'ar-KW'
+- code: ar-KW
   name: ''
   enabled: false
--
-  code: 'ar-LB'
+- code: ar-LB
   name: ''
   enabled: false
--
-  code: 'ar-LY'
+- code: ar-LY
   name: ''
   enabled: false
--
-  code: 'ar-MA'
+- code: ar-MA
   name: ''
   enabled: false
--
-  code: 'ar-OM'
+- code: ar-OM
   name: ''
   enabled: false
--
-  code: 'ar-QA'
+- code: ar-QA
   name: ''
   enabled: false
--
-  code: 'ar-SA'
+- code: ar-SA
   name: ''
   enabled: false
--
-  code: 'ar-SY'
+- code: ar-SY
   name: ''
   enabled: false
--
-  code: 'ar-TN'
+- code: ar-TN
   name: ''
   enabled: false
--
-  code: 'ar-YE'
+- code: ar-YE
   name: ''
   enabled: false
--
-  code: 'be'
+- code: be
   name: ''
   enabled: false
--
-  code: 'bg'
+- code: bg
   name: ''
   enabled: false
--
-  code: 'ca'
+- code: ca
   name: ''
   enabled: false
--
-  code: 'cs'
+- code: cs
   name: ''
   enabled: false
--
-  code: 'cy'
+- code: cy
   name: ''
   enabled: false
--
-  code: 'da'
+- code: da
   name: ''
   enabled: false
--
-  code: 'de'
-  name: 'Deutsche'
+- code: de
+  name: Deutsche
   enabled: true
-  title: 'Konvertieren Sie mehrere Bilder online in Webp'
-  description: 'Konvertieren Sie verschiedene Arten von Bildern PNG, JPG, JPEG, GIF in Webp in online'
-  file_uploader: 'Ziehen Sie eine Datei hierher und legen Sie sie ab oder klicken Sie auf'
-  convert: 'KONVERTIEREN'
+  title: Konvertieren Sie mehrere Bilder online in Webp
+  description: >-
+    Konvertieren Sie verschiedene Arten von Bildern PNG, JPG, JPEG, GIF in Webp
+    in online
+  file_uploader: Ziehen Sie eine Datei hierher und legen Sie sie ab oder klicken Sie auf
+  convert: KONVERTIEREN
   quality: 'Qualität: '
-  reset_btn: 'Zurücksetzen'
-  convert_btn: 'Konvertieren'
-  alert_head: 'Komplett konvertiert !!'
-  alert_body: 'Ihre alle Bilder wurden vollständig konvertiert. Sie können jedes Bild oder jede Zip-Datei mit Bildern herunterladen.'
-  alert_footer: 'Laden Sie die Bilder unten herunter.'
-  download_to_zip: 'Zum Zip herunterladen'
-  about: '<h1 id="site-name">Webp Converter</h1>, In der Vergangenheit verwendete Bilder wie PNG und JPG werden durch einen neuen Komprimierungsalgorithmus in ein für das Web optimiertes Webp-Format konvertiert. webp ist ein neuer Bildtyp, der von Google erstellt wurde. Um Bilder auf Ihre Website hochzuladen, können Sie Bilder vom Typ Webp verwenden, um das Laden von Seiten zu beschleunigen.'
+  reset_btn: Zurücksetzen
+  convert_btn: Konvertieren
+  alert_head: Komplett konvertiert !!
+  alert_body: >-
+    Ihre alle Bilder wurden vollständig konvertiert. Sie können jedes Bild oder
+    jede Zip-Datei mit Bildern herunterladen.
+  alert_footer: Laden Sie die Bilder unten herunter.
+  download_to_zip: Zum Zip herunterladen
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, In der Vergangenheit verwendete
+    Bilder wie PNG und JPG werden durch einen neuen Komprimierungsalgorithmus in
+    ein für das Web optimiertes Webp-Format konvertiert. webp ist ein neuer
+    Bildtyp, der von Google erstellt wurde. Um Bilder auf Ihre Website
+    hochzuladen, können Sie Bilder vom Typ Webp verwenden, um das Laden von
+    Seiten zu beschleunigen.
   change_logs:
-    - date: 'JULI 2020'
-      contents: ['Erstveröffentlichung des Webp Converter.']
--
-  code: 'de-AT'
+    - date: JULI 2020
+      contents:
+        - Erstveröffentlichung des Webp Converter.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: Bildgröße ändern Site TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: de-AT
   name: ''
   enabled: false
--
-  code: 'de-CH'
+- code: de-CH
   name: ''
   enabled: false
--
-  code: 'de-LI'
+- code: de-LI
   name: ''
   enabled: false
--
-  code: 'de-LU'
+- code: de-LU
   name: ''
   enabled: false
--
-  code: 'el'
+- code: el
   name: ''
   enabled: false
--
-  code: 'en-AU'
+- code: en-AU
   name: ''
   enabled: false
--
-  code: 'en-BZ'
+- code: en-BZ
   name: ''
   enabled: false
--
-  code: 'en-CA'
+- code: en-CA
   name: ''
   enabled: false
--
-  code: 'en-GB'
+- code: en-GB
   name: ''
   enabled: false
--
-  code: 'en-IE'
+- code: en-IE
   name: ''
   enabled: false
--
-  code: 'en-JM'
+- code: en-JM
   name: ''
   enabled: false
--
-  code: 'en-NZ'
+- code: en-NZ
   name: ''
   enabled: false
--
-  code: 'en-TT'
+- code: en-TT
   name: ''
   enabled: false
--
-  code: 'en-US'
+- code: en-US
   name: ''
   enabled: false
--
-  code: 'en-ZA'
+- code: en-ZA
   name: ''
   enabled: false
--
-  code: 'es'
-  name: 'Español'
+- code: es
+  name: Español
   enabled: true
-  title: 'Convierta varias imágenes a Webp en línea'
+  title: Convierta varias imágenes a Webp en línea
   description: 'Convierta varios tipos de imágenes png, jpg, jpeg, gif a webp en línea'
-  file_uploader: 'Arrastre y suelte un archivo aquí o haga clic en'
-  convert: 'CONVERTIR'
+  file_uploader: Arrastre y suelte un archivo aquí o haga clic en
+  convert: CONVERTIR
   quality: 'Calidad: '
-  reset_btn: 'Reiniciar'
-  convert_btn: 'Convertir'
-  alert_head: 'Completamente convertido !!'
-  alert_body: 'Todas tus imágenes se convirtieron por completo. Puede descargar cada imagen o archivo zip de imágenes.'
-  alert_footer: 'Descarga las imágenes a continuación.'
-  download_to_zip: 'Descargar en zip'
-  about: '<h1 id="site-name">Webp Converter</h1>, convierte imágenes que se han utilizado en el pasado, como png y jpg, a un formato webp optimizado para la web mediante un nuevo algoritmo de compresión. webp es un nuevo tipo de imagen creado por Google. Para cargar imágenes en su sitio, puede usar imágenes de tipo webp para acelerar la carga de la página.'
+  reset_btn: Reiniciar
+  convert_btn: Convertir
+  alert_head: Completamente convertido !!
+  alert_body: >-
+    Todas tus imágenes se convirtieron por completo. Puede descargar cada imagen
+    o archivo zip de imágenes.
+  alert_footer: Descarga las imágenes a continuación.
+  download_to_zip: Descargar en zip
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, convierte imágenes que se han
+    utilizado en el pasado, como png y jpg, a un formato webp optimizado para la
+    web mediante un nuevo algoritmo de compresión. webp es un nuevo tipo de
+    imagen creado por Google. Para cargar imágenes en su sitio, puede usar
+    imágenes de tipo webp para acelerar la carga de la página.
   change_logs:
-    - date: 'Julio 2020'
-      contents: ['Versión inicial de Webp Converter.']
--
-  code: 'es-AR'
+    - date: Julio 2020
+      contents:
+        - Versión inicial de Webp Converter.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: Sitio de cambio de tamaño de imagen TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: es-AR
   name: ''
   enabled: false
--
-  code: 'es-BO'
+- code: es-BO
   name: ''
   enabled: false
--
-  code: 'es-CL'
+- code: es-CL
   name: ''
   enabled: false
--
-  code: 'es-CO'
+- code: es-CO
   name: ''
   enabled: false
--
-  code: 'es-CR'
+- code: es-CR
   name: ''
   enabled: false
--
-  code: 'es-DO'
+- code: es-DO
   name: ''
   enabled: false
--
-  code: 'es-EC'
+- code: es-EC
   name: ''
   enabled: false
--
-  code: 'es-GT'
+- code: es-GT
   name: ''
   enabled: false
--
-  code: 'es-HN'
+- code: es-HN
   name: ''
   enabled: false
--
-  code: 'es-MX'
+- code: es-MX
   name: ''
   enabled: false
--
-  code: 'es-NI'
+- code: es-NI
   name: ''
   enabled: false
--
-  code: 'es-PA'
+- code: es-PA
   name: ''
   enabled: false
--
-  code: 'es-PE'
+- code: es-PE
   name: ''
   enabled: false
--
-  code: 'es-PR'
+- code: es-PR
   name: ''
   enabled: false
--
-  code: 'es-PY'
+- code: es-PY
   name: ''
   enabled: false
--
-  code: 'es-SV'
+- code: es-SV
   name: ''
   enabled: false
--
-  code: 'es-UY'
+- code: es-UY
   name: ''
   enabled: false
--
-  code: 'es-VE'
+- code: es-VE
   name: ''
   enabled: false
--
-  code: 'et'
+- code: et
   name: ''
   enabled: false
--
-  code: 'eu'
+- code: eu
   name: ''
   enabled: false
--
-  code: 'fa'
+- code: fa
   name: ''
   enabled: false
--
-  code: 'fi'
+- code: fi
   name: ''
   enabled: false
--
-  code: 'fo'
+- code: fo
   name: ''
   enabled: false
--
-  code: 'fr'
-  name: 'Français'
+- code: fr
+  name: Français
   enabled: true
-  title: 'Convertir plusieurs images en Webp en ligne'
-  description: Convertir divers types d'images png, jpg, jpeg, gif en webp en ligne
-  file_uploader: 'Faites glisser et déposez un fichier ici ou cliquez sur'
-  convert: 'CONVERTIR'
+  title: Convertir plusieurs images en Webp en ligne
+  description: 'Convertir divers types d''images png, jpg, jpeg, gif en webp en ligne'
+  file_uploader: Faites glisser et déposez un fichier ici ou cliquez sur
+  convert: CONVERTIR
   quality: 'Qualité: '
-  reset_btn: 'Réinitialiser'
-  convert_btn: 'Convertir'
-  alert_head: 'Complètement converti !!'
-  alert_body: Toutes vos images ont été complètement converties. Vous pouvez télécharger chaque image ou fichier zip d'images.
-  alert_footer: 'Téléchargez les images ci-dessous.'
-  download_to_zip: 'Télécharger en zip'
-  about: <h1 id="site-name">Webp Converter</h1>, il convertit les images qui ont été utilisées dans le passé, telles que png et jpg, dans un format webp optimisé pour le Web grâce à un nouvel algorithme de compression. webp est un nouveau type d'image créé par Google. Pour télécharger des images sur votre site, vous pouvez utiliser des images de type webp pour accélérer le chargement des pages.
+  reset_btn: Réinitialiser
+  convert_btn: Convertir
+  alert_head: Complètement converti !!
+  alert_body: >-
+    Toutes vos images ont été complètement converties. Vous pouvez télécharger
+    chaque image ou fichier zip d'images.
+  alert_footer: Téléchargez les images ci-dessous.
+  download_to_zip: Télécharger en zip
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, il convertit les images qui ont été
+    utilisées dans le passé, telles que png et jpg, dans un format webp optimisé
+    pour le Web grâce à un nouvel algorithme de compression. webp est un nouveau
+    type d'image créé par Google. Pour télécharger des images sur votre site,
+    vous pouvez utiliser des images de type webp pour accélérer le chargement
+    des pages.
   change_logs:
-    - date: 'JUILLET 2020'
-      contents: ['Version initiale du Webp Converter.']
--
-  code: 'fr-BE'
+    - date: JUILLET 2020
+      contents:
+        - Version initiale du Webp Converter.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: Site de redimensionnement d'image TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: fr-BE
   name: ''
   enabled: false
--
-  code: 'fr-CA'
+- code: fr-CA
   name: ''
   enabled: false
--
-  code: 'fr-CH'
+- code: fr-CH
   name: ''
   enabled: false
--
-  code: 'fr-LU'
+- code: fr-LU
   name: ''
   enabled: false
--
-  code: 'ga'
+- code: ga
   name: ''
   enabled: false
--
-  code: 'gd'
+- code: gd
   name: ''
   enabled: false
--
-  code: 'he'
+- code: he
   name: ''
   enabled: false
--
-  code: 'hi'
-  name: 'हिन्दी'
+- code: hi
+  name: हिन्दी
   enabled: true
-  title: 'कई छवियों को ऑनलाइन वेबप में परिवर्तित करें
+  title: कई छवियों को ऑनलाइन वेबप में परिवर्तित करें
   description: 'ऑनलाइन में विभिन्न प्रकार के चित्र png, jpg, jpeg, gif को webp में बदलें'
-  file_uploader: 'किसी फ़ाइल को यहाँ खींचें या छोड़ें या क्लिक करें'
-  convert: 'धर्मान्तरित'
+  file_uploader: किसी फ़ाइल को यहाँ खींचें या छोड़ें या क्लिक करें
+  convert: धर्मान्तरित
   quality: 'गुणवत्ता: '
-  reset_btn: 'रीसेट'
-  convert_btn: 'धर्मान्तरित'
-  alert_head: 'पूरी तरह से रूपांतरित !!'
-  alert_body: 'आपकी सभी छवियां पूरी तरह से रूपांतरित हो गईं। आप प्रत्येक छवि या छवियों की ज़िप फ़ाइल डाउनलोड कर सकते हैं।'
-  alert_footer: 'नीचे दिए गए चित्र डाउनलोड करें।'
-  download_to_zip: 'डाउनलोड करने के लिए ज़िप'
-  about: '<h1 id="site-name">Webp Converter</h1>, यह उन चित्रों को धर्मान्तरित करता है जिनका उपयोग अतीत में किया गया है, जैसे कि png और jpg, वेब में एक नए संपीड़न एल्गोरिथ्म के माध्यम से अनुकूलित वेब प्रारूप में। webp Google द्वारा बनाया गया एक नया इमेज टाइप है। अपनी साइट पर छवियां अपलोड करने के लिए, आप पृष्ठ लोडिंग को गति देने के लिए वेबप प्रकार की छवियों का उपयोग कर सकते हैं।'
+  reset_btn: रीसेट
+  convert_btn: धर्मान्तरित
+  alert_head: पूरी तरह से रूपांतरित !!
+  alert_body: >-
+    आपकी सभी छवियां पूरी तरह से रूपांतरित हो गईं। आप प्रत्येक छवि या छवियों की
+    ज़िप फ़ाइल डाउनलोड कर सकते हैं।
+  alert_footer: नीचे दिए गए चित्र डाउनलोड करें।
+  download_to_zip: डाउनलोड करने के लिए ज़िप
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, यह उन चित्रों को धर्मान्तरित करता है
+    जिनका उपयोग अतीत में किया गया है, जैसे कि png और jpg, वेब में एक नए संपीड़न
+    एल्गोरिथ्म के माध्यम से अनुकूलित वेब प्रारूप में। webp Google द्वारा बनाया
+    गया एक नया इमेज टाइप है। अपनी साइट पर छवियां अपलोड करने के लिए, आप पृष्ठ
+    लोडिंग को गति देने के लिए वेबप प्रकार की छवियों का उपयोग कर सकते हैं।
   change_logs:
-    - date: 'जुलाई 2020'
-      contents: ['Webp Converter की प्रारंभिक रिलीज।']
--
-  code: 'hr'
+    - date: जुलाई 2020
+      contents:
+        - Webp Converter की प्रारंभिक रिलीज।
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: छवि आकार साइट TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: hr
   name: ''
   enabled: false
--
-  code: 'hu'
+- code: hu
   name: ''
   enabled: false
--
-  code: 'id'
+- code: id
   name: ''
   enabled: false
--
-  code: 'is'
+- code: is
   name: ''
   enabled: false
--
-  code: 'it'
+- code: it
   name: ''
   enabled: false
--
-  code: 'it-CH'
+- code: it-CH
   name: ''
   enabled: false
--
-  code: 'ja'
-  name: '日本語'
+- code: ja
+  name: 日本語
   enabled: true
-  title: '複数の画像をオンラインでWebpに変換する'
+  title: 複数の画像をオンラインでWebpに変換する
   description: 'オンラインでさまざまなタイプの画像png, jpg, jpeg, gifをwebpに変換'
-  file_uploader: 'ファイルドラッグ&ドロップまたはこちらをクリックしてください。'
-  convert: '変換'
+  file_uploader: ファイルドラッグ&ドロップまたはこちらをクリックしてください。
+  convert: 変換
   quality: '品質: '
-  reset_btn: 'リセット'
-  convert_btn: '変換'
-  alert_head: '完全に変換 !!'
-  alert_body: 'すべての画像が完全に変換されました。 各画像または画像のzipファイルをダウンロードできます。'
-  alert_footer: '以下の画像をダウンロードしてください。'
-  download_to_zip: 'Zipファイルでダウンロード'
-  about: '<h1 id="site-name">Webp Converter</h1>, これは、pngやjpgなどの過去に使用された画像を、新しい圧縮アルゴリズムによってWeb用に最適化されたwebp形式に変換します。 webpは、Googleが作成した新しい画像タイプです。 画像をサイトにアップロードするには、webpタイプの画像を使用してページの読み込みを高速化できます。'
+  reset_btn: リセット
+  convert_btn: 変換
+  alert_head: 完全に変換 !!
+  alert_body: すべての画像が完全に変換されました。 各画像または画像のzipファイルをダウンロードできます。
+  alert_footer: 以下の画像をダウンロードしてください。
+  download_to_zip: Zipファイルでダウンロード
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>,
+    これは、pngやjpgなどの過去に使用された画像を、新しい圧縮アルゴリズムによってWeb用に最適化されたwebp形式に変換します。
+    webpは、Googleが作成した新しい画像タイプです。
+    画像をサイトにアップロードするには、webpタイプの画像を使用してページの読み込みを高速化できます。
   change_logs:
-    - date: '2020年7月'
-      contents: ['Webp Converterの初期リリース。']
--
-  code: 'ji'
+    - date: 2020年7月
+      contents:
+        - Webp Converterの初期リリース。
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: 画像リサイズサイトTOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: ji
   name: ''
   enabled: false
--
-  code: 'ko'
-  name: '한국어'
+- code: ko
+  name: 한국어
   enabled: true
-  title: '온라인에서 여러 이미지를 Webp로 한 번에 변환'
+  title: 온라인에서 여러 이미지를 Webp로 한 번에 변환
   description: 'png, jpg, jpeg, gif 등의 다양한 타입의 여러 이미지를 온라인에서 webp 이미지로 변환하기'
-  file_uploader: '파일 드래그 & 드랍 또는 이 곳을 클릭하세요'
-  convert: '변환'
+  file_uploader: 파일 드래그 & 드랍 또는 이 곳을 클릭하세요
+  convert: 변환
   quality: '품질: '
-  reset_btn: '초기화'
-  convert_btn: '변환'
-  alert_head: '이미지 변환이 완료되었습니다 !!'
-  alert_body: '당신의 모든 이미지들의 변환이 완료되었습니다. 각각의 이미지를 다운로드 받거나 zip 파일로 다운 받을 수 있습니다.'
-  alert_footer: '아래에서 이미지를 다운로드 하세요.'
-  download_to_zip: 'Zip 파일로 다운로드'
-  about: '<h1 id="site-name">Webp Converter</h1>는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축 알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를 사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.'
+  reset_btn: 초기화
+  convert_btn: 변환
+  alert_head: 이미지 변환이 완료되었습니다 !!
+  alert_body: 당신의 모든 이미지들의 변환이 완료되었습니다. 각각의 이미지를 다운로드 받거나 zip 파일로 다운 받을 수 있습니다.
+  alert_footer: 아래에서 이미지를 다운로드 하세요.
+  download_to_zip: Zip 파일로 다운로드
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축
+    알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를
+    사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.
   change_logs:
-    - date: '2020년 7월'
-      contents: ['Webp Converter 첫 배포.']
--
-  code: 'ku'
+    - date: 2020년 7월
+      contents:
+        - Webp Converter 첫 배포.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: 이미지 크기 변환 사이트 TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: ku
   name: ''
   enabled: false
--
-  code: 'lt'
+- code: lt
   name: ''
   enabled: false
--
-  code: 'lv'
+- code: lv
   name: ''
   enabled: false
--
-  code: 'mk'
+- code: mk
   name: ''
   enabled: false
--
-  code: 'ml'
+- code: ml
   name: ''
   enabled: false
--
-  code: 'ms'
+- code: ms
   name: ''
   enabled: false
--
-  code: 'mt'
+- code: mt
   name: ''
   enabled: false
--
-  code: 'nb'
+- code: nb
   name: ''
   enabled: false
--
-  code: 'nl'
+- code: nl
   name: ''
   enabled: false
--
-  code: 'nl-BE'
+- code: nl-BE
   name: ''
   enabled: false
--
-  code: 'nn'
+- code: nn
   name: ''
   enabled: false
--
-  code: 'no'
+- code: 'no'
   name: ''
   enabled: false
--
-  code: 'pa'
+- code: pa
   name: ''
   enabled: false
--
-  code: 'pl'
+- code: pl
   name: ''
   enabled: false
--
-  code: 'pt'
+- code: pt
   name: ''
   enabled: false
--
-  code: 'pt-BR'
+- code: pt-BR
   name: ''
   enabled: false
--
-  code: 'rm'
+- code: rm
   name: ''
   enabled: false
--
-  code: 'ro'
+- code: ro
   name: ''
   enabled: false
--
-  code: 'ro-MD'
+- code: ro-MD
   name: ''
   enabled: false
--
-  code: 'ru'
+- code: ru
   name: ''
   enabled: false
--
-  code: 'ru-MD'
+- code: ru-MD
   name: ''
   enabled: false
--
-  code: 'sb'
+- code: sb
   name: ''
   enabled: false
--
-  code: 'sk'
+- code: sk
   name: ''
   enabled: false
--
-  code: 'sl'
+- code: sl
   name: ''
   enabled: false
--
-  code: 'sq'
+- code: sq
   name: ''
   enabled: false
--
-  code: 'sr'
+- code: sr
   name: ''
   enabled: false
--
-  code: 'sv'
+- code: sv
   name: ''
   enabled: false
--
-  code: 'sv-FI'
+- code: sv-FI
   name: ''
   enabled: false
--
-  code: 'th'
-  name: 'ไทย'
+- code: th
+  name: ไทย
   enabled: true
-  title: 'แปลงภาพหลายภาพเป็น Webp ออนไลน์'
+  title: แปลงภาพหลายภาพเป็น Webp ออนไลน์
   description: 'แปลงรูปภาพประเภทต่างๆ png, jpg, jpeg, gif เป็น webp ในรูปแบบออนไลน์'
-  file_uploader: 'ลากและวางไฟล์ที่นี่หรือคลิก'
-  convert: 'แปลง'
+  file_uploader: ลากและวางไฟล์ที่นี่หรือคลิก
+  convert: แปลง
   quality: 'คุณภาพ: '
-  reset_btn: 'รีเซ็ต'
-  convert_btn: 'แปลง'
-  alert_head: 'แปลงอย่างสมบูรณ์ !!'
-  alert_body: 'ภาพทั้งหมดของคุณถูกแปลงอย่างสมบูรณ์ คุณสามารถดาวน์โหลดภาพแต่ละภาพหรือไฟล์ zip ของภาพ'
-  alert_footer: 'ดาวน์โหลดภาพด้านล่าง'
-  download_to_zip: 'ดาวน์โหลดเป็นไฟล์ zip'
-  about: '<h1 id="site-name">Webp Converter</h1>, จะแปลงรูปภาพที่เคยใช้ในอดีตเช่น png และ jpg เป็นรูปแบบ webp ที่ปรับให้เหมาะสมกับเว็บโดยใช้อัลกอริธึมการบีบอัดแบบใหม่ webp เป็นรูปภาพประเภทใหม่ที่ Google สร้างขึ้น ในการอัปโหลดภาพไปยังไซต์ของคุณคุณสามารถใช้รูปภาพประเภท webp เพื่อเพิ่มความเร็วในการโหลดหน้าเว็บ'
+  reset_btn: รีเซ็ต
+  convert_btn: แปลง
+  alert_head: แปลงอย่างสมบูรณ์ !!
+  alert_body: >-
+    ภาพทั้งหมดของคุณถูกแปลงอย่างสมบูรณ์ คุณสามารถดาวน์โหลดภาพแต่ละภาพหรือไฟล์
+    zip ของภาพ
+  alert_footer: ดาวน์โหลดภาพด้านล่าง
+  download_to_zip: ดาวน์โหลดเป็นไฟล์ zip
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>, จะแปลงรูปภาพที่เคยใช้ในอดีตเช่น png
+    และ jpg เป็นรูปแบบ webp
+    ที่ปรับให้เหมาะสมกับเว็บโดยใช้อัลกอริธึมการบีบอัดแบบใหม่ webp
+    เป็นรูปภาพประเภทใหม่ที่ Google สร้างขึ้น
+    ในการอัปโหลดภาพไปยังไซต์ของคุณคุณสามารถใช้รูปภาพประเภท webp
+    เพื่อเพิ่มความเร็วในการโหลดหน้าเว็บ
   change_logs:
-    - date: 'กรกฎาคม 2020'
-      contents: ['รุ่นแรกของ Webp Converter.']
--
-  code: 'tn'
+    - date: กรกฎาคม 2020
+      contents:
+        - รุ่นแรกของ Webp Converter.
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: ไซต์ปรับขนาดรูปภาพ TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: tn
   name: ''
   enabled: false
--
-  code: 'tr'
+- code: tr
   name: ''
   enabled: false
--
-  code: 'ts'
+- code: ts
   name: ''
   enabled: false
--
-  code: 'uk'
+- code: uk
   name: ''
   enabled: false
--
-  code: 'ur'
+- code: ur
   name: ''
   enabled: false
--
-  code: 've'
+- code: ve
   name: ''
   enabled: false
--
-  code: 'vi'
+- code: vi
   name: ''
   enabled: false
--
-  code: 'xh'
+- code: xh
   name: ''
   enabled: false
--
-  code: 'zh-CN'
-  name: '汉语'
+- code: zh-CN
+  name: 汉语
   enabled: true
-  title: '在线将多个图像转换为Webp'
-  description: '在线将各种类型的图像png，jpg，jpeg，gif转换为webp'
-  file_uploader: '请点击文件夹&手拉或此处。'
-  convert: '兑换'
+  title: 在线将多个图像转换为Webp
+  description: 在线将各种类型的图像png，jpg，jpeg，gif转换为webp
+  file_uploader: 请点击文件夹&手拉或此处。
+  convert: 兑换
   quality: '质量: '
-  reset_btn: '重启'
-  convert_btn: '兑换'
-  alert_head: '完全转换 !!'
-  alert_body: '您的所有图像已完全转换。 您可以下载每个图像或图像的zip文件。'
-  alert_footer: '请在下面下载图片。'
-  download_to_zip: '以Zip文件下载'
-  about: '<h1 id="site-name">Webp Converter</h1>, 它将过去使用过的图像（例如png和jpg）转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。 要将图像上传到您的站点，您可以使用webp类型的图像来加快页面加载速度。'
+  reset_btn: 重启
+  convert_btn: 兑换
+  alert_head: 完全转换 !!
+  alert_body: 您的所有图像已完全转换。 您可以下载每个图像或图像的zip文件。
+  alert_footer: 请在下面下载图片。
+  download_to_zip: 以Zip文件下载
+  about: >-
+    <h1 id="site-name">Webp Converter</h1>,
+    它将过去使用过的图像（例如png和jpg）转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。
+    要将图像上传到您的站点，您可以使用webp类型的图像来加快页面加载速度。
   change_logs:
-    - date: '2020年7月'
-      contents: ['Webp Converter 首次发放。']
--
-  code: 'zh-HK'
+    - date: 2020年7月
+      contents:
+        - Webp Converter 首次发放。
+  partners:
+    - name: Navy Apple
+      icon: >-
+        <svg style="width: 30px;margin-bottom: -6px;text-align: center;"
+        aria-hidden="true" focusable="false" data-prefix="fas"
+        data-icon="apple-alt" class="svg-inline--fa fa-apple-alt fa-w-14"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448
+        512"><path fill="currentColor" d="M350.85 129c25.97 4.67 47.27 18.67
+        63.92 42 14.65 20.67 24.64 46.67 29.96 78 4.67 28.67 4.32 57.33-1
+        86-7.99 47.33-23.97 87-47.94 119-28.64 38.67-64.59 58-107.87 58-10.66
+        0-22.3-3.33-34.96-10-8.66-5.33-18.31-8-28.97-8s-20.3 2.67-28.97 8c-12.66
+        6.67-24.3 10-34.96 10-43.28
+        0-79.23-19.33-107.87-58-23.97-32-39.95-71.67-47.94-119-5.32-28.67-5.67-57.33-1-86
+        5.32-31.33 15.31-57.33 29.96-78 16.65-23.33 37.95-37.33 63.92-42
+        15.98-2.67 37.95-.33 65.92 7 23.97 6.67 44.28 14.67 60.93 24 16.65-9.33
+        36.96-17.33 60.93-24 27.98-7.33 49.96-9.67 65.94-7zm-54.94-41c-9.32
+        8.67-21.65 15-36.96 19-10.66 3.33-22.3 5-34.96
+        5l-14.98-1c-1.33-9.33-1.33-20 0-32 2.67-24 10.32-42.33 22.97-55
+        9.32-8.67 21.65-15 36.96-19 10.66-3.33 22.3-5 34.96-5l14.98 1 1 15c0
+        12.67-1.67 24.33-4.99 35-3.99 15.33-10.31 27.67-18.98 37z"></path></svg>
+      color: '#171C2E'
+      link: 'https://navy-apple.com'
+      contents:
+        - name: 图片调整大小网站TOP3
+          link: 'https://navy-apple.com/tips/internet-mobile/image-resize-sites'
+- code: zh-HK
   name: ''
   enabled: false
--
-  code: 'zh-SG'
+- code: zh-SG
   name: ''
   enabled: false
--
-  code: 'zh-TW'
+- code: zh-TW
   name: ''
   enabled: false
--
-  code: 'zu'
+- code: zu
   name: ''
   enabled: false

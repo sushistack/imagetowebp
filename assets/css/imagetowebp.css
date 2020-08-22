@@ -971,6 +971,19 @@ a.logo {
   margin-top: 1rem;
 }
 
+#partners .content {
+  text-align: left;
+}
+
+#partners .content a {
+  color: #3e5871;
+}
+
+.partner-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 #footer {
   background-color: #eee;
 }
