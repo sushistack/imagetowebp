@@ -755,8 +755,8 @@
 - code: zh-CN
   name: 汉语
   enabled: true
-  title: 在线一次将多个图像转换为webp（PNG，JPG，GIF）
-  description: 一次将多种不同类型的图像（例如png, jpeg, jpg, gif, bmp等）转换为webp
+  title: 在线一次将多个图像转换为webp(PNG，JPG，GIF)
+  description: 一次将多种不同类型的图像(例如png, jpeg, jpg, gif, bmp等)转换为webp
   file_uploader: 请点击文件夹&手拉或此处。
   convert: 兑换
   quality: '质量: '
@@ -768,7 +768,7 @@
   download_to_zip: 以Zip文件下载
   about: >-
     <h1 id="site-name">Image To Webp</h1>,
-    它将过去使用过的图像（例如png和jpg）转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。
+    它将过去使用过的图像(例如png和jpg)转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。
     要将图像上传到您的站点，您可以使用webp类型的图像来加快页面加载速度。
   change_logs:
     - date: 2020年7月
