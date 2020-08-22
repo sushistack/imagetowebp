@@ -959,9 +959,16 @@ a.logo {
   line-height: 1.2;
 }
 
-#others .content, #changelog .content {
+#others .content, #features .content , #changelog .content {
   text-align: left;
 }
+
+.feature {
+  font-size: 1.2rem;
+  font-weight: 500;
+  list-style-type: circle;
+}
+
 
 .changelog-date {
   margin: 0 .5rem;

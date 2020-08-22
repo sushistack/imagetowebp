@@ -143,6 +143,22 @@
     </div>
   </section>
 
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="title">Features</h2>
+      <hr>
+      <div class="columns is-centered">
+        <div class="content has-text-centered-tablet">
+          <ul class="feature">
+            {% for feature in lang_pack.features %}
+              <li class="feature">{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="others">
     <div class="container">
       <h2 class="title">Others</h2>

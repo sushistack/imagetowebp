@@ -20,6 +20,11 @@
     web through a new compression algorithm. webp is a new image type created by
     Google. To upload images to your site, you can use webp type images to speed
     up page loading.
+  features:
+    - This site is completely free.
+    - No image upload limit.
+    - This site never save all images.
+    - All image processing is done at the browser only.
   change_logs:
     - date: JULY 2020
       contents:
@@ -144,6 +149,11 @@
     Bildtyp, der von Google erstellt wurde. Um Bilder auf Ihre Website
     hochzuladen, können Sie Bilder vom Typ Webp verwenden, um das Laden von
     Seiten zu beschleunigen.
+  features:
+    - Diese Seite ist völlig kostenlos.
+    - Kein Bild-Upload-Limit.
+    - Diese Seite speichert niemals alle Bilder.
+    - Die gesamte Bildverarbeitung erfolgt nur im Browser.
   change_logs:
     - date: JULI 2020
       contents:
@@ -242,6 +252,11 @@
     web mediante un nuevo algoritmo de compresión. webp es un nuevo tipo de
     imagen creado por Google. Para cargar imágenes en su sitio, puede usar
     imágenes de tipo webp para acelerar la carga de la página.
+  features:
+    - Este sitio es completamente gratuito.
+    - Sin límite de carga de imágenes.
+    - Este sitio nunca guarda todas las imágenes.
+    - Todo el procesamiento de imágenes se realiza solo en el navegador.
   change_logs:
     - date: Julio 2020
       contents:
@@ -365,6 +380,11 @@
     type d'image créé par Google. Pour télécharger des images sur votre site,
     vous pouvez utiliser des images de type webp pour accélérer le chargement
     des pages.
+  features:
+    - Ce site est entièrement gratuit.
+    - Aucune limite de téléchargement d'images.
+    - Ce site n'enregistre jamais toutes les images.
+    - Tout le traitement d'image est effectué uniquement dans le navigateur.
   change_logs:
     - date: JUILLET 2020
       contents:
@@ -439,6 +459,11 @@
     एल्गोरिथ्म के माध्यम से अनुकूलित वेब प्रारूप में। webp Google द्वारा बनाया
     गया एक नया इमेज टाइप है। अपनी साइट पर छवियां अपलोड करने के लिए, आप पृष्ठ
     लोडिंग को गति देने के लिए वेबप प्रकार की छवियों का उपयोग कर सकते हैं।
+  features:
+    - यह साइट पूरी तरह से मुफ्त है।
+    - कोई छवि अपलोड सीमा नहीं।
+    - यह साइट कभी भी सभी छवियों को नहीं बचाती है।
+    - सभी छवि प्रसंस्करण केवल ब्राउज़र पर किया जाता है।
   change_logs:
     - date: जुलाई 2020
       contents:
@@ -507,6 +532,11 @@
     これは、pngやjpgなどの過去に使用された画像を、新しい圧縮アルゴリズムによってWeb用に最適化されたwebp形式に変換します。
     webpは、Googleが作成した新しい画像タイプです。
     画像をサイトにアップロードするには、webpタイプの画像を使用してページの読み込みを高速化できます。
+  features:
+    - このサイトは完全に無料です。
+    - 画像のアップロード制限はありません。
+    - このサイトはすべての画像を保存することはありません。
+    - すべての画像処理はブラウザでのみ行われます。
   change_logs:
     - date: 2020年7月
       contents:
@@ -559,6 +589,11 @@
     <h1 id="site-name">Image To Webp</h1>는 png, jpg와 같이 과거에 사용되었던 이미지를 새로운 압축
     알고리즘을 통해 웹에 최적화 된 webp 형식으로 변환합니다. webp는 Google에서 만든 새로운 이미지 유형입니다. 이미지를
     사이트에 업로드하려면 webp 유형 이미지를 사용하면 페이지 로드 속도를 향상 시킬 수 있습니다.
+  features:
+    - 이 사이트는 완전 무료입니다.
+    - 이미지 업로드 제한이 없습니다.
+    - 이 사이트는 모든 이미지를 저장하지 않습니다.
+    - 모든 이미지 처리는 브라우저에서만 수행됩니다.
   change_logs:
     - date: 2020년 7월
       contents:
@@ -697,6 +732,11 @@
     เป็นรูปภาพประเภทใหม่ที่ Google สร้างขึ้น
     ในการอัปโหลดภาพไปยังไซต์ของคุณคุณสามารถใช้รูปภาพประเภท webp
     เพื่อเพิ่มความเร็วในการโหลดหน้าเว็บ
+  features:
+    - ไซต์นี้ไม่มีค่าใช้จ่ายใด ๆ
+    - ไม่ จำกัด การอัปโหลดภาพ
+    - ไซต์นี้ไม่เคยบันทึกรูปภาพทั้งหมด
+    - การประมวลผลภาพทั้งหมดทำได้ที่เบราว์เซอร์เท่านั้น
   change_logs:
     - date: กรกฎาคม 2020
       contents:
@@ -770,6 +810,11 @@
     <h1 id="site-name">Image To Webp</h1>,
     它将过去使用过的图像(例如png和jpg)转换为通过新的压缩算法针对网络优化的webp格式。 webp是Google创建的一种新图像类型。
     要将图像上传到您的站点，您可以使用webp类型的图像来加快页面加载速度。
+  features:
+    - 这个网站是完全免费的。
+    - 没有图片上传限制。
+    - 该网站永远不会保存所有图像。
+    - 所有图像处理仅在浏览器上完成。
   change_logs:
     - date: 2020年7月
       contents:
