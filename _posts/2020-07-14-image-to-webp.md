@@ -1,7 +1,7 @@
 ---
 layout: base
-title: "Welcome to Jekyll!"
-description: "description"
+title: ''
+description: ''
 permalink: /
 lang: en
 lang_index: 0

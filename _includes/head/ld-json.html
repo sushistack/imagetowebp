@@ -2,10 +2,10 @@
 <script type="application/ld+json">
 {
   "url": "{{ site.url }}{{ page.permalink }}",
-  "headline": "{{ lang_pack.title }}",
+  "headline": "{{ page.title | default:lang_pack.title }} | {{ site.site_name }}",
   "dateModified":"{{ page.date | date_to_xmlschema }}",
   "datePublished":"{{ page.date | date_to_xmlschema }}",
-  "description":"{{ lang_pack.description }}",
+  "description":"{{ page.description | default:lang_pack.description }}",
   "@type":"WebSite",
   "@context":"https://schema.org"
 }
