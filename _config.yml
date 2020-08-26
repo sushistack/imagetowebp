@@ -35,7 +35,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-seo-tag
-  - jekyll-sitemap
+# - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-include-cache
 # Exclude from processing.
