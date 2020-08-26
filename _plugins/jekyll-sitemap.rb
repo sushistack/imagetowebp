@@ -47,7 +47,6 @@ module Jekyll
       site_map = PageWithoutAFile.new(@site, __dir__, "", "sitemap.xml")
       site_map.content = File.read(source_path).gsub(MINIFY_REGEX, "")
       site_map.data["layout"] = nil
-      puts "#{static_files.map(&:to_liquid)}"
       site_map.data["static_files"] = static_files.map(&:to_liquid)
       site_map.data["xsl"] = file_exists?("sitemap.xsl")
       site_map
