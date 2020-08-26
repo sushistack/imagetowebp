@@ -3,7 +3,7 @@
 {% if page.layout == 'base' %}
 
 {% for lang in site.data.languages %}
-  {% if lang.enabled and page.lang != lang.code %}
+  {% if lang.enabled %}
     {% if lang.code == 'en' %}
       <link rel="alternate" href="{{ site.url }}/" hreflang="{{ lang.code }}">
     {% else %}
