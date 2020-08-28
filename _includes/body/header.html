@@ -1,5 +1,6 @@
 {% assign lang_pack = include.lang_pack %}
 {% assign languages = site.data.languages %}
+{% assign code = include.code %}
 
 <header class="header">
   <nav class="h4 sm-h6">
@@ -17,7 +18,7 @@
             <span class="dropdown-icon"></span>
           </a>
           <div class="dropdown-menu">
-            <a href="https://imgcompression.com" target="_blank" class="logo">
+            <a href="https://imgcompression.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-compress.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">
@@ -28,7 +29,7 @@
                 </div>
               </div>
             </a>
-            <a href="https://imgresizing.com" target="_blank" class="logo">
+            <a href="https://imgresizing.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-resize.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">
@@ -39,7 +40,7 @@
                 </div>
               </div>
             </a>
-            <a href="https://imagejoin.com" target="_blank" class="logo">
+            <a href="https://imagejoin.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-join.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">

@@ -1,7 +1,13 @@
 {% assign lang_pack = include.lang_pack %}
 {% assign languages = site.data.languages %}
 
-{% include body/header.html lang_pack=lang_pack %}
+{% if lang_pack.code == 'en' %}
+  {% assign code = '' %}
+{% else %}
+  {% assign code = '/' | append: lang_pack.code | append: '/' %}
+{% endif %}
+
+{% include body/header.html lang_pack=lang_pack code=code %}
 
 <div class="preview-wrapper"></div>
 
@@ -95,7 +101,7 @@
       <div class="columns is-centered">
         <div class="column is-10-tablet is-8-desktop is-6-widescreen">
           <div class="content has-text-centered-tablet">
-            <a href="https://imgcompression.com" target="_blank" class="logo">
+            <a href="https://imgcompression.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-compress.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">
@@ -106,7 +112,7 @@
                 </div>
               </div>
             </a>
-            <a href="https://imgresizing.com" target="_blank" class="logo">
+            <a href="https://imgresizing.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-resize.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">
@@ -117,7 +123,7 @@
                 </div>
               </div>
             </a>
-            <a href="https://imagejoin.com" target="_blank" class="logo">
+            <a href="https://imagejoin.com{{ code }}" target="_blank" class="logo">
               <div class="dropdown-list">
                 <img src="/assets/icons/icon-join.png" style="max-width: 2rem;" class="mr1 md-mr2">
                 <div class="logo-text-wrap">
