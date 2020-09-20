@@ -1,7 +1,7 @@
 - code: en
   name: English
   enabled: true
-  title: Convert multiple images to webp at once online (PNG, JPG, GIF)
+  title: Convert multiple images to webp at once online
   description: 'Convert multiple images of various types such as png, jpeg, jpg, gif, bmp, etc. to webp online at once'
   keywords: [convert webp, convert image to webp, convert png to webp, convert jpg to webp, convert jpeg to webp, convert gif to webp, convert bmp to webp, webp converter]
   file_uploader: Drag and drop a file here or click
@@ -129,7 +129,7 @@
 - code: de
   name: Deutsche
   enabled: true
-  title: Konvertieren Sie mehrere Bilder gleichzeitig online in Webp (PNG, JPG, GIF)
+  title: Konvertieren Sie mehrere Bilder gleichzeitig online in Webp
   description: >-
     Konvertieren Sie mehrere Bilder verschiedener Typen wie png, jpeg, jpg, gif, bmp usw. gleichzeitig in Webp online
   keywords: [konvertiere webp, konvertiere Bild in webp, konvertiere png in webp, konvertiere jpg in webp, konvertiere jpeg in webp, konvertiere gif in webp, konvertiere bmp in webp, webp converter]
@@ -235,7 +235,7 @@
 - code: es
   name: Español
   enabled: true
-  title: Convierta varias imágenes a webp a la vez en línea (PNG, JPG, GIF)
+  title: Convierta varias imágenes a webp a la vez en línea
   description: 'Convierta varias imágenes de varios tipos, como png, jpeg, jpg, gif, bmp, etc.a webp en línea a la vez'
   keywords: [convertir webp, convertir imagen a webp, convertir png a webp, convertir jpg a webp, convertir jpeg a webp, convertir gif a webp, convertir bmp a webp, convertidor webp]
   file_uploader: Arrastre y suelte un archivo aquí o haga clic en
@@ -363,7 +363,7 @@
 - code: fr
   name: Français
   enabled: true
-  title: Convertissez plusieurs images en webp à la fois en ligne (PNG, JPG, GIF)
+  title: Convertissez plusieurs images en webp à la fois en ligne
   description: 'Convertissez plusieurs images de différents types tels que png, jpeg, jpg, gif, bmp, etc. en webp en ligne à la fois'
   keywords: [convertir webp, convertir une image en webp, convertir png en webp, convertir jpg en webp, convertir jpeg en webp, convertir gif en webp, convertir bmp en webp, convertisseur webp]
   file_uploader: Faites glisser et déposez un fichier ici ou cliquez sur
@@ -444,7 +444,7 @@
 - code: hi
   name: हिन्दी
   enabled: true
-  title: ऑनलाइन (PNG, JPG, GIF) वेब पर एक से अधिक छवियां परिवर्तित करें
+  title: ऑनलाइन वेब पर एक से अधिक छवियां परिवर्तित करें
   description: 'एक ही बार में विभिन्न प्रकार की कई छवियों जैसे png, jpeg, jpg, gif, bmp, आदि को वेबप में कनवर्ट करें'
   keywords: [वेब को परिवर्तित करें, वेब को छवि बदलें, पीएनजी को वेबपी में परिवर्तित करें, जेपीजी को वेबपी में परिवर्तित करें, जेपीईजी को वेब में परिवर्तित करें, जीआईएफ को वेब में परिवर्तित करें, बीपीपी को वेबपी में परिवर्तित करें, वेब कनवर्टर को]
   file_uploader: किसी फ़ाइल को यहाँ खींचें या छोड़ें या क्लिक करें
@@ -580,7 +580,7 @@
 - code: ko
   name: 한국어
   enabled: true
-  title: 온라인에서 한 번에 여러 이미지를 webp로 변환 (PNG, JPG, GIF)
+  title: 여러 이미지를 webp 변환 온라인에서 한 번에
   description: 'png, jpeg, jpg, gif, bmp 등의 다양한 타입의 여러 이미지를 온라인에서 한번에 webp로 변환하기'
   keywords: [webp 변환, 이미지를 webp로 변환, png를 webp로 변환, jpg를 webp로 변환, jpeg를 webp로 변환, gif를 webp로 변환, bmp를 webp로 변환, webp 변환기]
   file_uploader: 파일 드래그 & 드랍 또는 이 곳을 클릭하세요
@@ -719,7 +719,7 @@
 - code: th
   name: ไทย
   enabled: true
-  title: แปลงหลายภาพเป็น webp พร้อมกันทางออนไลน์ (PNG, JPG, GIF)
+  title: แปลงหลายภาพเป็น webp พร้อมกันทางออนไลน์
   description: 'แปลงรูปภาพหลายประเภทเช่น png, jpeg, jpg, gif, bmp ฯลฯ เป็น webp ออนไลน์พร้อมกัน'
   keywords: [แปลง webp, แปลงรูปภาพเป็น webp, แปลง png เป็น webp, แปลง jpg เป็น webp, แปลง jpeg เป็น webp, แปลง gif เป็น webp, แปลง bmp เป็น webp, ตัวแปลง webp]
   file_uploader: ลากและวางไฟล์ที่นี่หรือคลิก
@@ -803,7 +803,7 @@
 - code: zh-CN
   name: 汉语
   enabled: true
-  title: 在线一次将多个图像转换为webp(PNG, JPG, GIF)
+  title: 在线一次将多个图像转换为webp
   description: 一次将多种不同类型的图像(例如png, jpeg, jpg, gif, bmp等)转换为webp
   keywords: [转换webp, 将图像转换为webp, 将png转换为webp, 将jpg转换为webp, 将jpeg转换为webp, 将gif转换为webp, 将bmp转换为webp, webp转换器]
   file_uploader: 请点击文件夹&手拉或此处。
