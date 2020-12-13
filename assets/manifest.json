@@ -1,0 +1,39 @@
+
+{
+  "lang": "en",
+  "name": "Image To Webp",
+  "short_name": "Image To Webp",
+  "description": "Convert multiple images of various types such as png, jpeg, jpg, gif, bmp, etc. to webp online at once",
+  "start_url": "/?utm_source=homescreen",
+  "theme_color": "#3e5871",
+  "background_color": "#fff",
+  "orientation": "portrait",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/assets/icons/icon32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/assets/icons/icon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/assets/icons/icon96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/icons/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/icon240.png",
+      "type": "image/png",
+      "sizes": "240x240"
+    }
+  ]
+}
